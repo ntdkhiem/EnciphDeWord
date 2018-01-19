@@ -1,0 +1,7 @@
+{BBLUE}   ___                      _      _ __   _      {BEND}{BFAIL}  ___          {BEND}{BOK}{CBLINK}__      __                   _  {CEND}{BEND} 
+{BBLUE}  | __|   _ _      __      (_)    |  _ \ | |_    {BEND}{BFAIL} |   \    ___  {BEND}{BOK}{CBLINK}\ \    / / ___      _ _   __| | {CEND}{BEND} 
+{BBLUE}  | _|   |   \    / _|     | |    | .__/ |   \   {BEND}{BFAIL} | |) |  / -_) {BEND}{BOK}{CBLINK} \ \/\/ / / _ \    |  _| / _  | {CEND}{BEND} 
+{BBLUE}  |___|  |_||_|   \__|_   _|_|_   |_|__  |_||_|  {BEND}{BFAIL} |___/   \___| {BEND}{BOK}{CBLINK}  \_/\_/  \___/   _|_|_  \__,_| {CEND}{BEND} 
+{BBLUE}_|*****|_|*****|_|*****|_|*****|_|*****|_|*****|_{BEND}{BFAIL}|*****|_|*****|{BEND}{BOK}{CBLINK}_|*****|_|*****|_|*****|_|*****|{CEND}{BEND} 
+                                                                            @{CYELLOW}{author}{CEND}
+                                                                                    {CWHITE}{version}{CEND}

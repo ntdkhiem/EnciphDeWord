@@ -1,0 +1,17 @@
+{BBLUE}  sSSs   .S_sSSs      sSSs   .S   .S_sSSs     .S    S.   {BEND}{BFAIL} .S_sSSs      sSSs  {BEND}{BOK}{CBLINK} .S     S.     sSSs_sSSs     .S_sSSs     .S_sSSs  {CEND}{BEND}  
+{BBLUE} d%%SP  .SS~YS%%b    d%%SP  .SS  .SS~YS%%b   .SS    SS.  {BEND}{BFAIL}.SS~YS%%b    d%%SP  {BEND}{BOK}{CBLINK}.SS     SS.   d%%SP~YS%%b   .SS~YS%%b   .SS~YS%%b {CEND}{BEND}  
+{BBLUE}d%S     S%S    S%b  d%S     S%S  S%S   `S%b  S%S    S%S  {BEND}{BFAIL}S%S    S%b  d%S     {BEND}{BOK}{CBLINK}S%S     S%S  d%S       S%b  S%S    S%b  S%S    S%b{CEND}{BEND}  
+{BBLUE}S%S     S%S    S%S  S%S     S%S  S%S    S%S  S%S    S%S  {BEND}{BFAIL}S%S    S%S  S%S     {BEND}{BOK}{CBLINK}S%S     S%S  S%S       S%S  S%S    S%S  S%S    S%S{CEND}{BEND}  
+{BBLUE}S&S     S%S    S&S  S&S     S&S  S%S    d*S  S%S SSSS%S  {BEND}{BFAIL}S%S    S&S  S&S     {BEND}{BOK}{CBLINK}S%S     S%S  S&S       S&S  S%S    d*S  S%S    S&S{CEND}{BEND}  
+{BBLUE}S&S_Ss  S&S    S&S  S&S     S&S  S&S   .S*S  S&S  SSS&S  {BEND}{BFAIL}S&S    S&S  S&S_Ss  {BEND}{BOK}{CBLINK}S&S     S&S  S&S       S&S  S&S   .S*S  S&S    S&S{CEND}{BEND}  
+{BBLUE}S&S~SP  S&S    S&S  S&S     S&S  S&S_sdSSS   S&S    S&S  {BEND}{BFAIL}S&S    S&S  S&S~SP  {BEND}{BOK}{CBLINK}S&S     S&S  S&S       S&S  S&S_sdSSS   S&S    S&S{CEND}{BEND}  
+{BBLUE}S&S     S&S    S&S  S&S     S&S  S&S~YSSY    S&S    S&S  {BEND}{BFAIL}S&S    S&S  S&S     {BEND}{BOK}{CBLINK}S&S     S&S  S&S       S&S  S&S~YSY%b   S&S    S&S{CEND}{BEND}  
+{BBLUE}S*b     S*S    S*S  S*b     S*S  S*S         S*S    S*S  {BEND}{BFAIL}S*S    d*S  S*b     {BEND}{BOK}{CBLINK}S*S     S*S  S*b       d*S  S*S   `S%b  S*S    d*S{CEND}{BEND}  
+{BBLUE}S*S.    S*S    S*S  S*S.    S*S  S*S         S*S    S*S  {BEND}{BFAIL}S*S   .S*S  S*S.    {BEND}{BOK}{CBLINK}S*S  .  S*S  S*S.     .S*S  S*S    S%S  S*S   .S*S{CEND}{BEND}  
+{BBLUE} SSSbs  S*S    S*S   SSSbs  S*S  S*S         S*S    S*S  {BEND}{BFAIL}S*S_sdSSS    SSSbs  {BEND}{BOK}{CBLINK}S*S_sSs_S*S   SSSbs_sdSSS   S*S    S&S  S*S_sdSSS {CEND}{BEND}  
+{BBLUE}  YSSP  S*S    SSS    YSSP  S*S  S*S         SSS    S*S  {BEND}{BFAIL}SSS~YSSY      YSSP  {BEND}{BOK}{CBLINK}SSS~SSS~S*S    YSSP~YSSY    S*S    SSS  SSS~YSSY  {CEND}{BEND}  
+{BBLUE}        SP                  SP   SP                 SP   {BEND}{BFAIL}                    {BEND}{BOK}{CBLINK}                            SP                    {CEND}{BEND}  
+{BBLUE}        Y                   Y    Y                  Y    {BEND}{BFAIL}                    {BEND}{BOK}{CBLINK}                            Y                     {CEND}{BEND}  
+                                                                                        @{CYELLOW}{author}{CEND}
+                                                                                          {CWHITE}{version}{CEND}                                           
+

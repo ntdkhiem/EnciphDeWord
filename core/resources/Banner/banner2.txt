@@ -1,0 +1,11 @@
+{BBLUE}$$$$$$$$\                     $$\           $$\       {BEND}{BFAIL}$$$$$$$\            {BEND}{BOK}{CBLINK}$$\      $$\                           $$\{CEND}{BEND}
+{BBLUE}$$  _____|                    \__|          $$ |      {BEND}{BFAIL}$$  __$$\           {BEND}{BOK}{CBLINK}$$ | $\  $$ |                          $$ |{CEND}{BEND}
+{BBLUE}$$ |      $$$$$$$\   $$$$$$$\ $$\  $$$$$$\  $$$$$$$\  {BEND}{BFAIL}$$ |  $$ | $$$$$$\  {BEND}{BOK}{CBLINK}$$ |$$$\ $$ | $$$$$$\   $$$$$$\   $$$$$$$ |{CEND}{BEND}
+{BBLUE}$$$$$\    $$  __$$\ $$  _____|$$ |$$  __$$\ $$  __$$\ {BEND}{BFAIL}$$ |  $$ |$$  __$$\ {BEND}{BOK}{CBLINK}$$ $$ $$\$$ |$$  __$$\ $$  __$$\ $$  __$$ |{CEND}{BEND}
+{BBLUE}$$  __|   $$ |  $$ |$$ /      $$ |$$ /  $$ |$$ |  $$ |{BEND}{BFAIL}$$ |  $$ |$$$$$$$$ |{BEND}{BOK}{CBLINK}$$$$  _$$$$ |$$ /  $$ |$$ |  \__|$$ /  $$ |{CEND}{BEND}
+{BBLUE}$$ |      $$ |  $$ |$$ |      $$ |$$ |  $$ |$$ |  $$ |{BEND}{BFAIL}$$ |  $$ |$$   ____|{BEND}{BOK}{CBLINK}$$$  / \$$$ |$$ |  $$ |$$ |      $$ |  $$ |{CEND}{BEND}
+{BBLUE}$$$$$$$$\ $$ |  $$ |\$$$$$$$\ $$ |$$$$$$$  |$$ |  $$ |{BEND}{BFAIL}$$$$$$$  |\$$$$$$$\ {BEND}{BOK}{CBLINK}$$  /   \$$ |\$$$$$$  |$$ |      \$$$$$$$ |{CEND}{BEND}
+{BBLUE}\________|\__|  \__| \_______|\__|$$  ____/ \__|  \__|{BEND}{BFAIL}\_______/  \_______|{BEND}{BOK}{CBLINK}\__/     \__| \______/ \__|       \_______|{CEND}{BEND}
+{BBLUE}                                  $$ |                {BEND}                 @{CYELLOW}{author}{CEND}                                           
+{BBLUE}                                  $$ |                {BEND}                         {CWHITE}{version}{CEND}                     
+{BBLUE}                                  \__|                {BEND}                                             

@@ -1,0 +1,8 @@
+{BBLUE}___________             .__       .__    {BEND}{BFAIL}________        {BEND}{BOK}{CBLINK} __      __                .___{CEND}{BEND}
+{BBLUE}\_   _____/ ____   ____ |__|_____ |  |__ {BEND}{BFAIL}\______ \   ____{BEND}{BOK}{CBLINK}/  \    /  \___________  __| _/{CEND}{BEND}
+ {BBLUE}|    __)_ /    \_/ ___\|  \____ \|  |  \{BEND}{BFAIL} |    |  \_/ __ \{BEND}{BOK}{CBLINK}   \/\/   /  _ \_  __ \/ __ | {CEND}{BEND}
+ {BBLUE}|        \   |  \  \___|  |  |_> >   Y  \{BEND}{BFAIL}|    `   \  ___/{BEND}{BOK}{CBLINK}\        (  <_> )  | \/ /_/ | {CEND}{BEND}
+{BBLUE}/_______  /___|  /\___  >__|   __/|___|  /{BEND}{BFAIL}_______  /\___  >{BEND}{BOK}{CBLINK}\__/\  / \____/|__|  \____ | {CEND}{BEND}
+ {BBLUE}       \/     \/     \/   |__|        \/  {BEND}{BFAIL}      \/     \/{BEND}  {BOK}{CBLINK}    \/                   \/ {CEND}{BEND}
+                                                                @{CYELLOW}{author}{CEND}
+                                                                        {CWHITE}{version}{CEND}

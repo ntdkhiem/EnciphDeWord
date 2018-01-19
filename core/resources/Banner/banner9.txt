@@ -1,0 +1,11 @@
+{BBLUE}▓█████  ███▄    █  ▄████▄   ██▓ ██▓███   ██░ ██{BEND}{BFAIL}▓█████▄ ▓█████ {BEND}{BOK}{CBLINK} █     █░ ▒█████   ██▀███  ▓█████▄ {CEND}{BEND}
+{BBLUE}▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓██▒▓██░  ██▒▓██░ ██▒{BEND}{BFAIL}▒██▀ ██▌▓█   ▀ {BEND}{BOK}{CBLINK}▓█░ █ ░█░▒██▒  ██▒▓██ ▒ ██▒▒██▀ ██▌{CEND}{BEND}
+{BBLUE}▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▒██▒▓██░ ██▓▒▒██▀▀██░{BEND}{BFAIL}░██   █▌███   {BEND}{BOK}{CBLINK}▒█░ █ ░█ ▒██░  ██▒▓██ ░▄█ ▒░██   █▌{CEND}{BEND}
+{BBLUE}▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒░██░▒██▄█▓▒ ▒░▓█ ░██ {BEND}{BFAIL}░▓█▄   ▌▒▓█  ▄ {BEND}{BOK}{CBLINK}░█░ █ ░█ ▒██   ██░▒██▀▀█▄  ░▓█▄   ▌{CEND}{BEND}
+{BBLUE}░▒████▒▒██░   ▓██░▒ ▓███▀ ░░██░▒██▒ ░  ░░▓█▒░██▓{BEND}{BFAIL}░▒████▓ ░▒████▒{BEND}{BOK}{CBLINK}░░██▒██▓ ░ ████▓▒░░██▓ ▒██▒░▒████▓ {CEND}{BEND}
+{BBLUE}░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░░▓  ▒▓▒░ ░  ░ ▒ ░░▒░▒ ▒{BEND}{BFAIL}▒▓  ▒ ░░ ▒░ ░░{BEND}{BOK}{CBLINK} ▓░▒ ▒  ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░ ▒▒▓  ▒ {CEND}{BEND}
+{BBLUE} ░ ░  ░░ ░░   ░ ▒░  ░  ▒    ▒ ░░▒ ░      ▒ ░▒░ ░ ░ {BEND}{BFAIL}  ▒  ░ ░  ░  ▒ ░ ░    ░{BEND}{BOK}{CBLINK} ▒ ▒░   ░▒ ░ ▒░ ░ ▒  ▒ {CEND}{BEND}
+{BBLUE}   ░      ░   ░ ░ ░         ▒ ░░░        ░  ░░ ░ {BEND}{BFAIL}░ ░  ░    ░     ░   ░  ░ ░{BEND}{BOK}{CBLINK} ░ ▒    ░░   ░  ░ ░  ░ {CEND}{BEND}
+{BBLUE}   ░  ░         ░ ░ ░       ░            ░  ░  ░{BEND}{BFAIL}   ░       ░  ░    ░        {BEND}{BOK}{CBLINK}░ ░     ░        ░    {CEND}{BEND}
+{BBLUE}                  ░                              ░{BEND}{BFAIL}                                         {BEND}{BOK}{CBLINK}░      {CEND}{BEND}
+

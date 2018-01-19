@@ -1,0 +1,7 @@
+{BBLUE}    //   / /                                        {BEND}{BFAIL}  //    ) )        {BEND}{BOK}{CBLINK}||   / |  / /                         //{CEND}{BEND}  
+{BBLUE}   //____      __      ___     ( )  ___     / __    {BEND}{BFAIL} //    / /  ___    {BEND}{BOK}{CBLINK}||  /  | / /  ___      __      ___   // {CEND}{BEND} 
+{BBLUE}  / ____    //   ) ) //   ) ) / / //   ) ) //   ) ) {BEND}{BFAIL}//    / / //___) ) {BEND}{BOK}{CBLINK}|| / /||/ / //   ) ) //  ) ) //   ) //  {CEND}{BEND} 
+{BBLUE} //        //   / / //       / / //___/ / //   / / {BEND}{BFAIL}//    / / //        {BEND}{BOK}{CBLINK}||/ / |  / //   / / //      //   / //   {CEND}{BEND} 
+{BBLUE}//____/ / //   / / ((____   / / //       //   / / {BEND}{BFAIL}//____/ / ((____     {BEND}{BOK}{CBLINK}|  /  | / ((___/ / //      ((___/ //    {CEND}{BEND} 
+                                                                                @{CYELLOW}{author}{CEND}
+                                                                                        {CWHITE}{version}{CEND}

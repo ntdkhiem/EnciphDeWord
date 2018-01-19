@@ -1,0 +1,13 @@
+{BBLUE}@@@@@@@@  @@@  @@@   @@@@@@@  @@@  @@@@@@@   @@@  @@@ {BEND}{BFAIL} @@@@@@@   @@@@@@@@ {BEND}{BOK}{CBLINK} @@@  @@@  @@@   @@@@@@   @@@@@@@   @@@@@@@ {CEND}{BEND}  
+{BBLUE}@@@@@@@@  @@@@ @@@  @@@@@@@@  @@@  @@@@@@@@  @@@  @@@ {BEND}{BFAIL} @@@@@@@@  @@@@@@@@ {BEND}{BOK}{CBLINK} @@@  @@@  @@@  @@@@@@@@  @@@@@@@@  @@@@@@@@{CEND}{BEND}  
+{BBLUE}@@!       @@!@!@@@  !@@       @@!  @@!  @@@  @@!  @@@ {BEND}{BFAIL} @@!  @@@  @@!      {BEND}{BOK}{CBLINK} @@!  @@!  @@!  @@!  @@@  @@!  @@@  @@!  @@@{CEND}{BEND}  
+{BBLUE}!@!       !@!!@!@!  !@!       !@!  !@!  @!@  !@!  @!@ {BEND}{BFAIL} !@!  @!@  !@!      {BEND}{BOK}{CBLINK} !@!  !@!  !@!  !@!  @!@  !@!  @!@  !@!  @!@{CEND}{BEND}  
+{BBLUE}@!!!:!    @!@ !!@!  !@!       !!@  @!@@!@!   @!@!@!@! {BEND}{BFAIL} @!@  !@!  @!!!:!   {BEND}{BOK}{CBLINK} @!!  !!@  @!@  @!@  !@!  @!@!!@!   @!@  !@!{CEND}{BEND}  
+{BBLUE}!!!!!:    !@!  !!!  !!!       !!!  !!@!!!    !!!@!!!! {BEND}{BFAIL} !@!  !!!  !!!!!:   {BEND}{BOK}{CBLINK} !@!  !!!  !@!  !@!  !!!  !!@!@!    !@!  !!!{CEND}{BEND}  
+{BBLUE}!!:       !!:  !!!  :!!       !!:  !!:       !!:  !!! {BEND}{BFAIL} !!:  !!!  !!:      {BEND}{BOK}{CBLINK} !!:  !!:  !!:  !!:  !!!  !!: :!!   !!:  !!!{CEND}{BEND}  
+{BBLUE}:!:       :!:  !:!  :!:       :!:  :!:       :!:  !:! {BEND}{BFAIL} :!:  !:!  :!:      {BEND}{BOK}{CBLINK} :!:  :!:  :!:  :!:  !:!  :!:  !:!  :!:  !:!{CEND}{BEND}  
+{BBLUE} :: ::::   ::   ::   ::: :::   ::   ::       ::   ::: {BEND}{BFAIL}  :::: ::   :: :::: {BEND}{BOK}{CBLINK}  :::: :: :::   ::::: ::  ::   :::   :::: ::{CEND}{BEND}  
+{BBLUE}: :: ::   ::    :    :: :: :  :     :         :   : : {BEND}{BFAIL} :: :  :   : :: ::  {BEND}{BOK}{CBLINK}   :: :  : :     : :  :    :   : :  :: :  : {CEND}{BEND}  
+                                                                  @{CYELLOW}{author}{CEND}
+                                                                        {CWHITE}{version}{CEND}
+

@@ -1,0 +1,21 @@
+import bcolors as b 
+from colored import fg,attr 
+
+BBLUE=b.BLUE
+BERR=b.ERR
+BEND=b.END
+BFAIL=b.FAIL
+BWARN=b.WARN
+BOK=b.OK
+BUNDERLINE=b.UNDERLINE
+BBMSG=b.BMSG 
+BOKMSG=b.OKMSG 
+CYELLOW=fg(11)
+CWHITE=fg(15)
+CGREEN=fg(10)
+CORGA=fg(202)
+CUNDERLINE=attr(4)
+CBLINK=attr(5)
+CLIGHTBLUE=fg(45)
+CRED=fg(196)
+CEND=attr(0)
