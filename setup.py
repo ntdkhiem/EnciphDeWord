@@ -14,7 +14,7 @@ setup(
     
     license = "",
     keywords = ["Encrypt","Basic","Decrypt"],
-    packages = ["EnciphDeWord"],
+    packages = ["core","docs","utils"],
     requires = ['prettytable','colortable','bcolors','colored'],
     python_requires = "<=2.7",
     classifiers = [],
