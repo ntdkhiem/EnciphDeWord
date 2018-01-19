@@ -12,6 +12,11 @@
 - [ ] Include exercises for each Cipher
 - [ ] Include Analysis for encryted message
 
+# Screenshots
+<img src="https://github.com/TopKeingt/EnciphDeWord/blob/master/docs/screenshot/screenshot1.png" width="50%"></img><img src="https://github.com/TopKeingt/EnciphDeWord/blob/master/docs/screenshot/screenshot2.png" width="50%"></img>
+<img src="https://github.com/TopKeingt/EnciphDeWord/blob/master/docs/screenshot/screenshot3.png" width="50%"></img>
+
+
 # Installing and requirements
 ### For this project to work you need :
 - Python 2.x
