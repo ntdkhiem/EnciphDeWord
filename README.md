@@ -1,4 +1,4 @@
-# EnciphDeWord
+# EnciphDeWord [![Python 2.7](https://img.shields.io/badge/Python-2.7-yellow.svg)](http://www.python.org/download/)
 ###### EnciphDeword is a basic python project that I created based on [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz
 - [x] Encipher and Decipher work (Hopfully)
 - [X] Include Additive Cipher (26 possibilities :+1:)
@@ -11,3 +11,21 @@
 - [ ] <del>Include Permutation Cipher</del>
 - [ ] Include exercises for each Cipher
 - [ ] Include Analysis for encryted message
+
+# Installing and requirements
+### For this project to work you need :
+- Python 2.x
+- Linux (Tested on chromebook) or Windows system(not test for window yet) (not test on Mac yet but it should work if you have python)
+- [Pip](https://pip.pypa.io/en/stable/installing/) installed 
+- The requirements in requirements.txt
+
+### Installing
+**Linux :**
+```
+git clone https://github.com/TopKeingt/EnciphDeWord.git
+cd EnciphDeWord
+python setup.py install 
+or
+pip install -r requirements.txt
+python EnciphDeWord.py
+```
