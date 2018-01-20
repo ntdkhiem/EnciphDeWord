@@ -14,6 +14,13 @@ with open('./core/alphabet.txt','r') as f:
 alp = dict(zip(info[0],range(1,27)))
 punctuations = info[1]
 
+def info():
+    help_ = ''
+    with open('./docs/TheMultiplicativeHelper.txt','r') as f:
+        return f.read()
+        f.close()
+
+
 def Encrypt(msg,key):
     global alp
     global punctuations

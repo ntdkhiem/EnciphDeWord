@@ -26,6 +26,7 @@ def help_(DecOrEn,OutOrIn):
     
     help_inside_encrypt = '''
     {0}help{1}                                -- Display this help message
+    {0}profile{1}                             -- Display profile of this encryption
     {0}show info{1}                           -- Show info box of your encrypter
     {0}SET (message/key) [string/number]{1}   -- set message or key to your given string or number
     {0}message{1}                             -- A wizard type if you don't want to use SET command
@@ -35,6 +36,7 @@ def help_(DecOrEn,OutOrIn):
     '''
     help_inside_decrypt = '''
     {0}help{1}                                -- Display this help message
+    {0}profile{1}                             -- Display profile of this encryption
     {0}show info{1}                           -- Show info box of your decrypter
     {0}SET (message/key) [string/number]{1}   -- set encrypted message or key to your given string or number
     {0}message{1}                             -- A wizard type if you don't want to use SET command
@@ -60,7 +62,7 @@ def help_(DecOrEn,OutOrIn):
         if OutOrIn == 'in':
             return help_inside_decrypt
         elif OutOrIn == 'out':
-            return help_outside_descrypt
+            return help_outside_decrypt
     elif DecOrEn == 'options':
         return options
     elif DecOrEn == 'helper':

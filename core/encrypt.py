@@ -49,7 +49,7 @@ def handler():
                 print BERR + " Please specify ID.\n" + BEND
                 print "Please type '{}show options{}' to show IDs".format(CLIGHTBLUE,CEND)
                 print "ex. use [id]\n"
-                handler()
+                break
             elif cmd_encrypt == 'back':
                 break
                 
@@ -64,6 +64,9 @@ def loop_handler_one_key(type,function):
         if comd == 'help' or comd == 'h' or comd == '?':
             help_ = helper.help_('encrypt','in')
             print help_.format(CLIGHTBLUE,CEND)
+        elif comd == 'profile':
+            info = function.info()
+            print info.format(CLIGHTBLUE,CEND)
         elif comd.startswith('show') and comd.endswith('info'):
             info_box = Table_maker(message,key_num,result,'encrypt')
             print 
@@ -115,13 +118,13 @@ def loop_handler_one_key(type,function):
             break
 def loop_handler_multi_key(type,function):
     Types = {'affine':'The Affine Cipher'}
-    keys_ID = ["Key A","Key B","Key C","Key D","Key E","Key F","Key G","Key H","Key I"]
+    keys_ID = ["Key A","Key B","Key C","Key D","Key E","Key F","Key G","Key H","Key I","None"]
     name = [value for key,value in Types.iteritems() if key == type]
     message = ''
     result = ''
     keys = [0*i for i in range(10)]
     if type == 'affine':
-        for i in range(7):
+        for i in range(8):
             keys.pop()
             keys_ID.pop()
     while True:
@@ -129,8 +132,11 @@ def loop_handler_multi_key(type,function):
         if comd == 'help' or comd == 'h' or comd == '?':
             help_ = helper.help_('encrypt','in')
             print help_.format(CLIGHTBLUE,CEND)
+        elif comd == 'profile':
+                info = function.info()
+                print info.format(CLIGHTBLUE,CEND)
         elif comd.startswith('show') and comd.endswith('info'):
-            info_box = Table_maker_multi(message,keys,result,'encrypt','affine')
+            info_box = Table_maker_multi(message,keys,result,'encrypt',type)
             print 
             print info_box
             print 
@@ -142,9 +148,8 @@ def loop_handler_multi_key(type,function):
                     message = strOrnum[0]
                     print BOKMSG + " Changing message to >>{} {}\n".format(BEND,message)
                 elif msgOrkey == 'key':
-                    keys[0] = int(strOrnum[0].strip())
-                    keys[1] = int(strOrnum[1].strip())
-                    for i in range(0,len(keys_ID)):
+                    for i in range(len(keys)):
+                        keys[i] = int(strOrnum[i].strip())
                         print BOKMSG + " Changing {} to >>{} {}".format(keys_ID[i],BEND,keys[i])
                         time.sleep(0.5)
             except IndexError:
@@ -164,10 +169,10 @@ def loop_handler_multi_key(type,function):
               print BERR + " Please don't use digit in your string or none\n" + BEND
         elif comd == 'key':
             try:
-              keys[0] = int(raw_input("{}How many times you want to encrypt for keyA:{} ".format(CGREEN,CEND)).strip())
-              print BOKMSG + " Changing keyA to >>{} {}\n".format(BEND,keys[0])
-              keys[1] = int(raw_input("{}How many times you want to encrypt for keyB:{} ".format(CGREEN,CEND)).strip())
-              print BOKMSG + " Changing keyB to >>{} {}\n".format(BEND,keys[1])
+                for i in range(len(keys)):
+                    print i
+                    keys[i] = int(raw_input("{}How many times you want to encrypt for {}:{} ".format(CGREEN,keys_ID[i],CEND)).strip())
+                    print BOKMSG + " Changing {} to >>{} {}\n".format(keys_ID[i],BEND,keys[i])
             except ValueError:
               print BERR + " Please only use digit as key and not allow spaces\n" + BEND
         elif comd == 'execute':
