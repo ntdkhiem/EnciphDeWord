@@ -37,3 +37,6 @@ python EnciphDeWord.py
 - [ ] <del>Include Permutation Cipher</del>
 - [ ] Include exercises for each Cipher
 - [ ] Include Analysis for encryted message
+
+#### I'm still a novice
+> so pull requests are welcome
