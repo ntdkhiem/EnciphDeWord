@@ -1,6 +1,8 @@
 # EnciphDeWord [![Python 2.7](https://img.shields.io/badge/Python-2.7-yellow.svg)](http://www.python.org/download/)
 ###### EnciphDeword is a basic python project that I created based on [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz
 
+[![asciicast](https://asciinema.org/a/158185.png)](https://asciinema.org/a/158185?autoplay=1)
+
 # Screenshots
 <img src="https://github.com/TopKeingt/EnciphDeWord/blob/master/docs/screenshot/screenshot1.png" width="50%" ></img>
 <img src="https://github.com/TopKeingt/EnciphDeWord/blob/master/docs/screenshot/screenshot2.png" width="50%"></img>
