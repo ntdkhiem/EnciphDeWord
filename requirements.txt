@@ -1,4 +1,0 @@
-prettytable
-colortable
-bcolors
-colored
