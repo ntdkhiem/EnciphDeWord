@@ -1,6 +1,8 @@
 # EnciphDeWord [![Python 2.7](https://img.shields.io/badge/Python-2.7-yellow.svg)](http://www.python.org/download/)
 ###### EnciphDeword is a basic python project that I created based on [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz
 [![asciicast](https://asciinema.org/a/158122.png)](https://asciinema.org/a/158122?autoplay=1)
+
+### TODO:
 - [x] Encipher and Decipher work (Hopfully)
 - [X] Include Additive Cipher (26 possibilities :+1:)
 - [X] Include Multiplicative Cipher (11 possibilities :+1:)
