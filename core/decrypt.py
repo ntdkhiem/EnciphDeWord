@@ -121,7 +121,7 @@ def loop_handler_one_key(type,function):
               if message == '' or key_num == 0:
                 raise ValueError()
               else:
-                result = function.Encrypt(message,key_num)
+                result = function.Decrypt(message,key_num)
                 if result == '':
                     print "\n" + BERR + ' Your decrypted message is >>{} {}'.format(BEND,result)     
                     break
