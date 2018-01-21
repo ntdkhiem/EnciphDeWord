@@ -31,7 +31,7 @@ python EnciphDeWord.py
 - [X] Include Additive Cipher (26 possibilities :+1:)
 - [X] Include Multiplicative Cipher (11 possibilities :+1:)
 - [X] Include Affine Cipher (combined of Additive Cipher and Multiplicative Cipher)  (392 possibilities :+1:)
-- [ ] Include Hill Digraph Cipher (456,976 possibilities)
+- [X] Include Hill Digraph Cipher (456,976 possibilities)
 - [ ] Include Hill Trigraph Ciper (5,429,503,678,976 possibilities if that is right)
 - [ ] Include Vigenère Square (limitless possibilities)
 - [ ] <del>Include Playfair Cipher</del>
