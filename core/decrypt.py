@@ -9,6 +9,7 @@ from core.resources import TheAdditiveCipher
 from core.resources import TheMultiplicativeCipher
 from core.resources import TheAffineCipher
 from core.resources import TheHillDigraphCipher
+from core.resources import TheHillTrigraphCipher
 from utils.color import *
 from utils.table_maker import Table_maker,Table_maker_multi
 from docs import helper
@@ -26,7 +27,8 @@ def handler():
                 rows = [['1','The Additive Cipher','EnciphDeWord using addition'],
                         ['2','The Multiplicative Cipher','EnciphDeWord using multiplication'],
                         ['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'],
-                        ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess']]
+                        ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess'],
+                        ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices']]
                 print 
                 print table(rows,header,colorfmt='red')
                 print
@@ -37,7 +39,8 @@ def handler():
                 table_maker.add_row(["1", "The Additive Cipher",'EnciphDeWord using addition'],
                                     ["2","The Multiplicative Cipher","EnciphDeWord using multiplication"],
                                     ['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'],
-                                    ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess'])
+                                    ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess'],
+                                    ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices'])
                 print table_maker
             elif cmd_encrypt.startswith('use'):
               try: 
@@ -50,6 +53,8 @@ def handler():
                   loop_handler_multi_key('affine',TheAffineCipher)
                 elif num_given == 4:
                   loop_handler_multi_key('digraph',TheHillDigraphCipher)
+                elif num_given == 5:
+                  loop_handler_multi_key('trigraph', TheHillTrigraphCipher)
               except ValueError:
                 print BERR + " Please specify ID." + BEND
                 print "   ex. SET message 'your string'\n"
@@ -126,7 +131,7 @@ def loop_handler_one_key(type,function):
         elif comd == 'back':
             break
 def loop_handler_multi_key(type,function):
-    Types = {'affine':'The Affine Cipher','digraph':'The Hill Digraph Cipher'}
+    Types = {'affine':'The Affine Cipher','digraph':'The Hill Digraph Cipher','trigraph':'The Hill Trigraph Cipher'}
     keys_ID = ["Key A","Key B","Key C","Key D","Key E","Key F","Key G","Key H","Key I","None"]
     name = [value for key,value in Types.iteritems() if key == type]
     message = ''
@@ -140,6 +145,9 @@ def loop_handler_multi_key(type,function):
         for i in range(6):
             keys.pop()
             keys_ID.pop()
+    elif type == 'trigraph':
+        keys.pop()
+        keys_ID.pop()
     while True:
         comd = raw_input("{0}{1}(Decrypt/{2}{3}{4}){5} >> ".format(BUNDERLINE,BBLUE,CRED,name[0],CEND,BEND)).strip()
         if comd == 'help' or comd == 'h' or comd == '?':
@@ -183,7 +191,6 @@ def loop_handler_multi_key(type,function):
         elif comd == 'key':
             try:
                 for i in range(len(keys)):
-                    print i
                     keys[i] = int(raw_input("{}How many times did you encrypted for {}:{} ".format(CGREEN,keys_ID[i],CEND)).strip())
                     print BOKMSG + " Changing {} to >>{} {}\n".format(keys_ID[i],BEND,keys[i])
             except ValueError:
