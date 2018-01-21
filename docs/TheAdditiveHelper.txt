@@ -1,3 +1,4 @@
 {0}Name{1}: The Additive Cipher
 {0}Description{1}: An encryption and decryption technique that use key provide (1-26) and adding it to each number that represent letter in alphabet.
+{0}Possibility{1}: 26
 {0}Author{1}: {0}@Khiem Nguyen{1}

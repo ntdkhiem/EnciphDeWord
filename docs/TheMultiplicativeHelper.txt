@@ -1,3 +1,4 @@
 {0}Name{1}: The Multiplicative Cipher
 {0}Description{1}: An encryption and decryption that use key (1-11) to multiply each number that represent letter in alphabet.
+{0}Possibility{1}: 11
 {0}Author{1}: {0}@Khiem Nguyen{1}

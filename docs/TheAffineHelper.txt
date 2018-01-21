@@ -1,3 +1,4 @@
 {0}Name{1}: The Affine Cipher
 {0}Description{1}: An encryption and decryption that use a combine additive key and multiplicative key to multiply and adding each number that represent letter in alphabet.
+{0}Possibility{1}: 392
 {0}Author{1}: {0}@Khiem Nguyen{1}
