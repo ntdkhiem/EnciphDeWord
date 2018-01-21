@@ -36,8 +36,7 @@ def Table_maker(msg,key,result,DecOrEn):
     table_maker.hrules = 1
     return table_maker
     
-def Table_maker_multi(msg,keys,result,DecOrEn,types): 
-    keys_ID = ["Key A","Key B","Key C","Key D","Key E","Key F","Key G","Key H","Key I"]
+def Table_maker_multi(msg,keys,result,DecOrEn,keys_ID,types): 
     encOrdec = ['encrypt','encryption','decrypt','decryption']
     if DecOrEn == 'encrypt':
       encOrdec.pop(2)
@@ -49,16 +48,13 @@ def Table_maker_multi(msg,keys,result,DecOrEn,types):
     help_key = helper.help_('helper','key').format(encOrdec[1])
     help_result = helper.help_('helper','result').format(encOrdec[1])
     if __platform__.startswith('Linux'):
-        if types == 'affine':
-            for i in range(7):
-                keys_ID.pop()
-            header = ['Types','Information','Helper']
-            rows = [["Message", msg, help_msg]]
-            for i in range(0,len(keys_ID)):
-                rows += [[keys_ID[i],keys[i],help_key]]
-            rows += [["Result",result,help_result]]
-            table_maker = table(rows,header,colorfmt='green')
-            return table_maker
+        header = ['Types','Information','Helper']
+        rows = [["Message", msg, help_msg]]
+        for i in range(0,len(keys_ID)):
+            rows += [[keys_ID[i],keys[i],help_key]]
+        rows += [["Result",result,help_result]]
+        table_maker = table(rows,header,colorfmt='green')
+        return table_maker
 
 
 
