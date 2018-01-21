@@ -51,7 +51,7 @@ def help_(DecOrEn,OutOrIn):
     {0}back{1}             -- back to main 
     '''
     msg_helper = "Message that gonna {}"
-    key_helper = "Key for {} BASIC ^_^"
+    key_helper = "Key for {}"
     result_helper = "Result of {}"
     if DecOrEn == 'encrypt':
         if OutOrIn == 'in':
