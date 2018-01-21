@@ -1,7 +1,7 @@
 # EnciphDeWord [![Python 2.7](https://img.shields.io/badge/Python-2.7-yellow.svg)](http://www.python.org/download/)
 ###### EnciphDeword is a basic python project that I created based on [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz
 
-[![asciicast](https://asciinema.org/a/158185.png)](https://asciinema.org/a/158185?autoplay=1)
+[![asciicast](https://asciinema.org/a/158352.png)](https://asciinema.org/a/158352?autoplay=1)
 
 # Screenshots
 <img src="https://github.com/TopKeingt/EnciphDeWord/blob/master/docs/screenshot/screenshot1.png" width="50%" ></img>
@@ -11,7 +11,7 @@
 
 # Installing and requirements
 ### For this project to work you need :
-- Python 2.x
+- (Python 2.x)[https://www.python.org/downloads/]
 - Linux (Tested on chromebook) or Windows system(not test for window yet) (not test on Mac yet but it should work if you have python)
 - [Pip](https://pip.pypa.io/en/stable/installing/) installed 
 - The requirements in requirements.txt
