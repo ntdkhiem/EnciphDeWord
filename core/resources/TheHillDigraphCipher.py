@@ -64,7 +64,52 @@ def Encrypt(msg,keys):
         print "((A * D) - (B * C)) % 26 >> {}: {}BAD{}".format(determinant,CRED,CEND)
         return 
 
-
+def Decrypt(msg,keys):
+  A = keys[0]
+  B = keys[1]
+  C = keys[2]
+  D = keys[3]
+  dec_list = [msg[i:i+2] for i in range(0, len(msg), 2)]
+  dec_num = []
+  new_num = []
+  result = []
+  determinant = ((A * D) - (B * C)) % 26
+  inverse_determinant = 0
+  if determinant in C_list:
+    for key,value in C_list.iteritems():
+      if determinant == key:
+        inverse_determinant = value
+    E = ((D  % 26) * inverse_determinant) % 26
+    F = (((-1 * B) % 26) * inverse_determinant ) % 26
+    G = (((-1 * C) % 26) * inverse_determinant) % 26
+    H = ((A % 26) * inverse_determinant) % 26
+    for two_letters in dec_list:
+      dec_num.append([alp.get(letter.lower()) for letter in two_letters])
+    for letter_pair in dec_num:
+      letter_1 = letter_pair.__getitem__(0)
+      letter_2 = letter_pair.__getitem__(1)
+      new_letter_1 = ((E * letter_1) + (F * letter_2)) % 26
+      new_letter_2 = ((G * letter_1) + (H * letter_2)) % 26
+      if new_letter_1 == 0:
+        new_letter_1 = 26
+      elif new_letter_2 == 0:
+        new_letter_2 = 26
+      new_num.append([new_letter_1,new_letter_2])
+    for num_pair in new_num:
+      for num in num_pair:
+        for letter,number in alp.iteritems():
+          if number == num:
+                result.append(letter)
+    if result[-1] == 'x':
+      result.pop()
+    RESULT = ''.join(result)
+    print "{}{}{}     Decrypting message please wait....{}".format(CRED,attr(1),CBLINK,CEND)
+    time.sleep(4)
+    print BOKMSG + ' Decrypt status: SUCCESS' + BEND
+    time.sleep(1)
+    return RESULT 
+  else:
+    return
 
 
 

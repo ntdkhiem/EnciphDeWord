@@ -8,6 +8,7 @@ from colortable import table
 from core.resources import TheAdditiveCipher
 from core.resources import TheMultiplicativeCipher
 from core.resources import TheAffineCipher
+from core.resources import TheHillDigraphCipher
 from utils.color import *
 from utils.table_maker import Table_maker,Table_maker_multi
 from docs import helper
@@ -22,7 +23,10 @@ def handler():
             elif cmd_encrypt.startswith('show') and cmd_encrypt.endswith('options'):
               if __platform__.startswith('Linux'):
                 header = ['ID','Type','Description']
-                rows = [['1','The Additive Cipher','EnciphDeWord using addition'],['2','The Multiplicative Cipher','EnciphDeWord using multiplication'],['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication']]
+                rows = [['1','The Additive Cipher','EnciphDeWord using addition'],
+                        ['2','The Multiplicative Cipher','EnciphDeWord using multiplication'],
+                        ['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'],
+                        ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess']]
                 print 
                 print table(rows,header,colorfmt='red')
                 print
@@ -30,7 +34,10 @@ def handler():
                 table_maker = PrettyTable()
                 table_maker.title = "Information Box"
                 table_maker.field_names = ["ID", "Type","Description"]
-                table_maker.add_row(["1", "The Additive Cipher",'EnciphDeWord using addition'],["2","The Multiplicative Cipher","EnciphDeWord using multiplication"],['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'])
+                table_maker.add_row(["1", "The Additive Cipher",'EnciphDeWord using addition'],
+                                    ["2","The Multiplicative Cipher","EnciphDeWord using multiplication"],
+                                    ['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'],
+                                    ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess'])
                 print table_maker
             elif cmd_encrypt.startswith('use'):
               try: 
@@ -41,15 +48,17 @@ def handler():
                   loop_handler_one_key('multiplicative',TheMultiplicativeCipher)
                 elif num_given == 3:
                   loop_handler_multi_key('affine',TheAffineCipher)
+                elif num_given == 4:
+                  loop_handler_multi_key('digraph',TheHillDigraphCipher)
               except ValueError:
                 print BERR + " Please specify ID." + BEND
                 print "   ex. SET message 'your string'\n"
-                break
+                pass
               except IndexError:
                 print BERR + " Please specify ID.\n" + BEND
                 print "Please type '{}show options{}' to show IDs".format(CLIGHTBLUE,CEND)
                 print "ex. use [id]\n"
-                break
+                pass
             elif cmd_encrypt == 'back':
                 break
                 
@@ -117,7 +126,7 @@ def loop_handler_one_key(type,function):
         elif comd == 'back':
             break
 def loop_handler_multi_key(type,function):
-    Types = {'affine':'The Affine Cipher'}
+    Types = {'affine':'The Affine Cipher','digraph':'The Hill Digraph Cipher'}
     keys_ID = ["Key A","Key B","Key C","Key D","Key E","Key F","Key G","Key H","Key I","None"]
     name = [value for key,value in Types.iteritems() if key == type]
     message = ''
@@ -125,6 +134,10 @@ def loop_handler_multi_key(type,function):
     keys = [0*i for i in range(10)]
     if type == 'affine':
         for i in range(8):
+            keys.pop()
+            keys_ID.pop()
+    elif type == 'digraph':
+        for i in range(6):
             keys.pop()
             keys_ID.pop()
     while True:
@@ -136,7 +149,7 @@ def loop_handler_multi_key(type,function):
                 info = function.info()
                 print info.format(CLIGHTBLUE,CEND)
         elif comd.startswith('show') and comd.endswith('info'):
-            info_box = Table_maker_multi(message,keys,result,'encrypt',type)
+            info_box = Table_maker_multi(message,keys,result,'encrypt',keys_ID,type)
             print 
             print info_box
             print 

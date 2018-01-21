@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-import string
+import string 
+import os 
 import time
 from utils.color import *
 from colored import attr
@@ -14,9 +15,9 @@ alp = dict(zip(info[0],range(1,27)))
 punctuations = info[1]
 
 def info():
-    help_ = ''
     with open('./docs/TheAdditiveHelper.txt','r') as f:
-        return f.read()
+        info = f.read()
+        return info
         f.close()
 
 def Encrypt(msg,key):

@@ -7,6 +7,7 @@ from utils.color import *
 from colored import attr
 info = []
 C_list = {1:27,3:9,5:21,7:15,9:3,11:13,15:7,17:23,19:11,21:5,23:17,25:25}
+
 with open('./core/alphabet.txt','r') as f:
     for line in f.readlines():
         info.append(line.replace('\n',''))
@@ -15,11 +16,10 @@ alp = dict(zip(info[0],range(1,27)))
 punctuations = info[1]
 
 def info():
-    help_ = ''
     with open('./docs/TheMultiplicativeHelper.txt','r') as f:
-        return f.read()
+        info = f.read()
+        return info
         f.close()
-
 
 def Encrypt(msg,key):
     global alp
