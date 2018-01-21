@@ -1,0 +1,4 @@
+{0}Name{1}: The Additive Cipher
+{0}Description{1}: An encryption and decryption technique that use 3x3 integer matrices 
+{0}Possibility{1}: 5,429,503,678,976
+{0}Author{1}: {0}@Khiem Nguyen{1}
