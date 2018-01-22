@@ -1,20 +1,23 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import os
-import platform
-import bcolors as b 
-import time
-from colored import fg,attr
-from docs import helper
-from core import encrypt,decrypt
-from core.resources.Banner.banner import banner_show
-from utils.color import *
-# try:
-# from Core.AdditiveCipher import The_Additive_Cipher
-# except ImportError as e:
-    # error_msg = e.message.split()[3]
-    # print b.ERR + "[-]" + b.ENDC + " Opps, " + b.BLUE + b.UNDERLINE + "{} ".format(error_msg).upper() + b.ENDC + "file is missing. Please download it on my github." + b.END
 
+try:
+    import os
+    import sys
+    import platform
+    import bcolors as b 
+    import time
+    from colored import fg,attr
+    from docs import helper
+    from core import encrypt,decrypt
+    from core.resources.Banner.banner import banner_show
+    from utils.color import *
+except ImportError as e:
+    error_msg = e.message.split()[3]
+    print "[*] Opps, {} file is missing.".format(error_msg)
+    print "[*] Try 'pip install -r requirements.txt'"
+    # break
+    sys.exit(0)
 __platform__ = platform.platform()
 
 def main():
