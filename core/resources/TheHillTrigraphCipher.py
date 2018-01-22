@@ -76,7 +76,7 @@ def Encrypt(msg,keys):
       (a = ODD ,b = ODD,c = EVEN)    (a = EVEN,b = ODD,c = ODD )
       (d = EVEN,e = ODD,f = EVEN) or (d = EVEN,e = ODD,f = ODD )
       (g = EVEN,h = ODD,i = ODD )    (g = ODD ,h = ODD,i = ODD )\n''' + BEND
-    print "((A * E * I) - (A * F * H) - (D * B * I) + (D * C * H) + (G * B * F) - (G * C * E)) % 26 >> {}: {}BAD{}".format(determinant,CRED,CEND)
+    print "{}[*]{}((A * E * I) - (A * F * H) - (D * B * I) + (D * C * H) + (G * B * F) - (G * C * E)) % 26 >> {}: {}BAD{}".format(CLIGHTBLUE,CEND,determinant,CRED,CEND)
     return 
     
 def Decrypt(msg,keys):
