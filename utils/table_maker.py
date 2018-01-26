@@ -1,7 +1,7 @@
 from prettytable import PrettyTable
 from colortable import table
 from docs import helper
-import platform 
+import platform
 import random
 __platform__ = platform.platform()
 
@@ -17,12 +17,12 @@ def Table_maker(msg,key,result,DecOrEn):
   help_msg = helper.help_('helper','msg').format(encOrdec[0])
   help_key = helper.help_('helper','key').format(encOrdec[1])
   help_result = helper.help_('helper','result').format(encOrdec[1])
-  if __platform__.startswith('Linux'):
+  if __platform__.startswith('Linux') or __platform__.startswith('Darwin'):
     header = ['Types','Information','Helper']
     rows = [["Message", msg, help_msg],["Key", key,help_key],["Result",result,help_result]]
     table_maker = table(rows,header,colorfmt='green')
     return table_maker
-  else:
+elif __platform__.startswith('Windows'):
     table_maker = PrettyTable()
     table_maker.title = "Information Box"
     table_maker.field_names = ["Types", "Information","Helper"]
@@ -35,8 +35,8 @@ def Table_maker(msg,key,result,DecOrEn):
     table_maker.max_width = 120
     table_maker.hrules = 1
     return table_maker
-    
-def Table_maker_multi(msg,keys,result,DecOrEn,keys_ID,types): 
+
+def Table_maker_multi(msg,keys,result,DecOrEn,keys_ID,types):
     encOrdec = ['encrypt','encryption','decrypt','decryption']
     if DecOrEn == 'encrypt':
       encOrdec.pop(2)
@@ -89,8 +89,8 @@ def Table_maker_multi(msg,keys,result,DecOrEn,keys_ID,types):
 
 
 
-    
-    
-    
-    
+
+
+
+
 #EOF
