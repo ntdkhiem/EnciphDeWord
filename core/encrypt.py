@@ -23,7 +23,7 @@ def handler():
                 help_ = helper.help_('encrypt','out')
                 print help_.format(CLIGHTBLUE,CEND)
             elif cmd_encrypt.startswith('show') and cmd_encrypt.endswith('options'):
-              if __platform__.startswith('Linux'):
+              if __platform__.startswith('Linux') or __platform__.startswith('Darwin'):
                 header = ['ID','Type','Description']
                 rows = [['1','The Additive Cipher','EnciphDeWord using addition'],
                         ['2','The Multiplicative Cipher','EnciphDeWord using multiplication'],
