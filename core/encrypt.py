@@ -42,7 +42,7 @@ def handler():
                                     ["2","The Multiplicative Cipher","EnciphDeWord using multiplication"],
                                     ['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'],
                                     ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess'],
-                                    ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices']
+                                    ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices'],
                                     ['6','The Vigenere Square (Cipher)','EnciphDeWord using word or string'])
                 print table_maker
             elif cmd_encrypt.startswith('use'):
