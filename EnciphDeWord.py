@@ -5,7 +5,7 @@ try:
     import os
     import sys
     import platform
-    import bcolors as b 
+    import bcolors as b
     import time
     from colored import fg,attr
     from docs import helper
@@ -26,7 +26,7 @@ def main():
       help_ = helper.help_('options','none')
       print help_.format(CGREEN,CEND,CWHITE)
       while True:
-        try: 
+        try:
           cmd = int(raw_input("{}Enter{} (digit only)>> ".format(BFAIL  ,BEND)))
           if cmd == 1:
             print BOKMSG + " Switching to encrypt..." + BEND
@@ -46,7 +46,7 @@ def main():
             banner_show()
           elif cmd == 6:
             print "\n\n" + BOKMSG + " GOOD BYE!!!" + BEND
-            break  
+            break
         except ValueError as e:
             error_command = e.message.split()[7]
             print BERR + " Unknown command >> {}{}{}\n".format(CGREEN,error_command,CEND) + BEND
@@ -54,10 +54,10 @@ def main():
         except KeyboardInterrupt:
             print "\n\n" + BOKMSG + " GOOD BYE!!!" + BEND
             break
-            
-            
+
+
 if __name__ == '__main__':
-    if __platform__.startswith('Linux'):
+    if __platform__.startswith('Linux') or __platform__.startswith('Darwin'):
         os.system('clear')
         main()
     elif __platform__.startswith('Window'):
