@@ -10,6 +10,7 @@ from core.resources import TheMultiplicativeCipher
 from core.resources import TheAffineCipher
 from core.resources import TheHillDigraphCipher
 from core.resources import TheHillTrigraphCipher
+from core.resources import TheVigenereSquare
 from utils.color import *
 from utils.table_maker import Table_maker,Table_maker_multi
 from docs import helper
@@ -28,7 +29,8 @@ def handler():
                         ['2','The Multiplicative Cipher','EnciphDeWord using multiplication'],
                         ['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'],
                         ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matrices'],
-                        ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices']]
+                        ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices'],
+                        ['6','The Vigenere Square (Cipher)','EnciphDeWord using word or string']]
                 print 
                 print table(rows,header,colorfmt='red')
                 print
@@ -40,7 +42,8 @@ def handler():
                                     ["2","The Multiplicative Cipher","EnciphDeWord using multiplication"],
                                     ['3','The Affine Cipher','EnciphDeWord using combined of addition and multiplication'],
                                     ['4','The Hill Digraph Cipher','EnciphDeWord using 2x2 integer matricess'],
-                                    ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices'])
+                                    ['5','The Hill Digraph Cipher','EnciphDeWord using 3x3 integer matrices']
+                                    ['6','The Vigenere Square (Cipher)','EnciphDeWord using word or string'])
                 print table_maker
             elif cmd_encrypt.startswith('use'):
               try: 
@@ -55,6 +58,8 @@ def handler():
                   loop_handler_multi_key('digraph',TheHillDigraphCipher)
                 elif num_given == 5:
                   loop_handler_multi_key('trigraph', TheHillTrigraphCipher)
+                elif num_given == 6:
+                  loop_handler_word(TheVigenereSquare)
               except ValueError:
                 print BERR + " Please specify ID." + BEND
                 print "   ex. SET message 'your string'\n"
@@ -211,6 +216,70 @@ def loop_handler_multi_key(type,function):
         elif comd == 'back':
             break
         
+def loop_handler_word(function):
+    message = ''
+    result = ''
+    key = ''
+    while True:
+        comd = raw_input("{0}{1}(Encrypt/{2}{3}{4}){5} >> ".format(BUNDERLINE,BBLUE,CRED,'The Vigenere Square',CEND,BEND)).strip()
+        if comd == 'help' or comd == 'h' or comd == '?':
+            help_ = helper.help_('encrypt','in')
+            print help_.format(CLIGHTBLUE,CEND)
+        elif comd == 'profile':
+            info = function.info()
+            print info.format(CLIGHTBLUE,CEND)
+        elif comd.startswith('show') and comd.endswith('info'):
+            info_box = Table_maker(message,key,result,'encrypt')
+            print 
+            print info_box
+            print 
+        elif comd.startswith('SET') or comd.startswith('set'):
+            try:
+              msgOrkey = comd.split()[1]
+              strOrnum = comd.rsplit()[2:]
+              if msgOrkey == 'message':
+                message = strOrnum[0]
+                print BOKMSG + " Changing message to >>{} {}\n".format(BEND,message)
+              elif msgOrkey == 'key':
+                key = strOrnum[0]
+                print BOKMSG + " Changing key to >>{} {}\n".format(BEND,key)
+            except IndexError:
+              print BERR + " Please specify (message/key) [string/(word or string)]" + BEND
+              print "    ex. SET message 'your string'\n"
+        elif comd == 'message' or comd == 'msg':
+            try:
+              message = raw_input("{}Enter your string:{} ".format(CGREEN,CEND)).strip()
+              print BOKMSG + " Changing message to >>{} {}\n".format(BEND,message)
+              for letter in message:
+                if letter.isdigit():
+                  raise ValueError()
+                elif message == '':
+                  raise ValueError()
+            except ValueError:
+              print BERR + " Please don't use digit in your string or none\n" + BEND
+        elif comd == 'key':
+            try:
+              key = raw_input("{}What string or word do you want as encrypt key:{} ".format(CGREEN,CEND)).strip()
+              if key.isdigit():
+                raise ValueError()
+              print BOKMSG + " Changing key to >>{} {}\n".format(BEND,key)
+            except ValueError:
+              print BERR + " Please only use alphabet as key and not allow spaces\n" + BEND
+        elif comd == 'execute':
+            try: 
+              if message == '' or key == '':
+                raise ValueError()
+              else:
+                result = function.Encrypt(message,key)
+                if result == '':
+                    print "\n" + BERR + ' Your encrypted message is >>{} {}'.format(BEND,result)     
+                    break
+                print "\n" + BOKMSG + ' Your encrypted message is >>{} {}'.format(BEND,result)
+            except ValueError:
+              print BERR + " Please set your message/key\n" + BEND
+        elif comd == 'back':
+            break
+    
         
         
         
