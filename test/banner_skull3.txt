@@ -40,5 +40,6 @@
                           {BFAIL}`d++o. +` .+.`y/  s`y+            {BBLUE}-+ys:os//+.+o/`{BEND}
                            {BFAIL}-yysy`-s  s- so:`hs/                {BBLUE}.::-////-{BEND}
                             {BFAIL}.+o+++y+++//- /+.{BEND}
+                                        {CYELLOW}{QUOTE}
                                                                                     @{CYELLOW}{author}{CEND}
                                                                                                 {CWHITE}{version}{CEND}

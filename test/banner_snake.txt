@@ -26,5 +26,6 @@
              {BFAIL}.----------.`           `--------------.`{BEND}
               {BFAIL}`..--...`               `----------.`{BEND}
                                           {BFAIL}````{BEND}
+                      {CYELLOW}{QUOTE}
                                     @{CYELLOW}{author}{CEND}
                                                   {CWHITE}{version}{CEND}

@@ -28,5 +28,6 @@
 {BOK}{CBLINK}yo.`......-::::oyNNmmNh{CEND}{BEND}      {BFAIL}oMN+/////////{BBLUE}OOOOO{BEND}{BFAIL}//////////mM{BEND}
 {BOK}{CBLINK}yo+//++++oyhhhhhmM{CEND}{BEND}           {BFAIL}oMN+::::::::://///:::::::::/mM{BEND}
 {BOK}{CBLINK}smmmNNNNNNMNsoooo+{CEND}{BEND}           {BFAIL}MMMNNNNNNNNNNNNNNNNNNNNNNNNNMM{BEND}
+                {CYELLOW}{QUOTE}
                                                           @{CYELLOW}{author}{CEND}
                                                                   {CWHITE}{version}{CEND}

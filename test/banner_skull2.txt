@@ -27,5 +27,6 @@
                     {BOK}{CBLINK}.:odMMMMMMMMMMMMMdo:`{CEND}{BEND}
                         {BOK}{CBLINK}/NMMMMMMMMMm-{CEND}{BEND}
                          {BOK}{CBLINK}.ymNmmmNms`{CEND}{BEND}
+                              {CYELLOW}{QUOTE}
                                                     @{CYELLOW}{author}{CEND}
                                                                 {CWHITE}{version}{CEND}
