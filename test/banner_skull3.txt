@@ -1,0 +1,44 @@
+                               {BBLUE}-/oo++osy+++/`{BEND}
+                          {BBLUE}`-oooyy/-:+:os:///yo/++`{BEND}
+                        {BBLUE}`osds-:://+//oos+sosoyoo+s-{BEND}
+                      {BBLUE}-s/:+++y+/oy+.:+/+--/--/:syo:/+-{BEND}
+                    {BBLUE}.yho: /+/dy+:./:..--:.--..-./oysh+o`{BEND}
+                   {BBLUE}`hyos/+:/hy+-:+o//::/+/++-.:`:+/:-y:+                    ``{BEND}
+                 {BBLUE}`//..--y:oo/oo::``      ```/s/--:-.+h:h           `-:/+o+osss+/+/-.{BEND}
+                {BBLUE}`sy:.``+++s+/`               `+so-.-+osy.: `://shdss-+do:-ho:` +yo:-+s/`{BEND}
+                {BBLUE}:hds+::s+oo+                  `h:-.:/odyoo++./s-yy+. ho-`.:-` `+:. .os:syo:`{BEND}
+              {BBLUE}`/yoyo..o-h+y`{BEND}            {BFAIL}`-::///s+++++sm:{BBLUE}yh:`sy+`o+-  :.--:/:::+/o/:://-/:.-o.{BEND}
+               {BBLUE}`:y+yy+:oooh.`:+:{BEND}   {BFAIL}`-:/++/:+++++++:--{BBLUE}-s:ms oy+: `::::o/+++oy+++ss/:::++y+://y:{BEND}
+                {BBLUE}/dhNy+-s-yodh/s``-{BEND}{BFAIL}/+--//---...-.`-{BBLUE}/os+/hh.:s/-.:o+osoyo++:+/.//+--:````.:///+o/.{BEND}
+                {BBLUE}+dm+.-.s-hoyhohoho/+{BEND}{BFAIL}.``.:`   ...{BBLUE}/:s//syh-:s/:///omy++:++/o+//+-.-+///+soo::`.o+o/{BEND}
+                {BBLUE}sh:/```++s//d/hhy-{BEND}{BFAIL} `    ``  `.{BBLUE}/:s`myhdo+os:/:+/://:+o..```  `         `/y+/:..-+d:{BEND}
+             {BBLUE}`o-soss+-`.s-+Nmysdoo-{BEND}{BFAIL}` `   `..`{BBLUE}:yyo:mddy+-.s:+//sso{BEND}{BFAIL}yso/                   {BBLUE}sys+:.`-os{BEND}
+              {BBLUE}o:+yh- `.+:o+sNmsy/s:{BEND}{BFAIL}.``  `--{BBLUE}./soh-yyyy+-.o-oo+o{BEND}{BFAIL}.:+o/o/                   {BBLUE}`ys+/:```y`{BEND}
+   `          {BBLUE}`/+h++//+h/sy`hNy/.{BEND}{BFAIL}````````` {BBLUE}-hdhooyo+:`-o:hddo{BEND}{BFAIL}o/-`.:/s:                   {BBLUE}s+y+:-`-++{BEND}
+  {BBLUE}-s-           `+hho/yd+dms++-/{BEND}{BFAIL}:-`  ..`-{BBLUE}/sos+yyhd++.`o:hy+{BEND}{BFAIL}/+o.```:o+s                   {BBLUE}`/s--.-:+o{BEND}
+ {BBLUE}`so             `hdmh:Nydh/{BEND}{BFAIL}`.`   `  `.{BBLUE}/y/o/oysoss+/`//sd{BEND}{BFAIL}so/:o..` -+:h.             {BBLUE}`.:+oyyhyh+:``y`{BEND}
+ {BBLUE}o+/              /dhds//o{BEND}{BFAIL}-  `` `..` `{BBLUE}:oy.shdyys:+:+++/yy{BEND}{BFAIL}s-``.    -+:-h`        {BBLUE}`--+sdh+oo-ys:.`-/h`{BEND}
+{BBLUE}`m:y              `o:+y`{BEND}{BFAIL}..`  `` `      {BBLUE}` .:hy-yy+ss+yoy{BEND}{BFAIL}s/o:.      /./:yo     {BBLUE}.-+ooyoo+:.` `yso:``.h{BEND}
+{BBLUE}:N+s:              :+-o-{BEND}{BFAIL}``   ``         {BBLUE}-+-+s/hy`+yyNN{BEND}{BFAIL}ss-``  .` `-+``:-y {BBLUE}`-/oos/do/.       y+-``..y{BEND}
+{BBLUE}:m/:s.              yy``{BEND}{BFAIL}   :.    -``  `` `{BBLUE}/s+/o+/syyo{BEND}{BFAIL}+:..`.-./-/--- -+-h{BBLUE}/sso/ys+-`         hso/-.o/{BEND}
+{BBLUE}.m:s.o.            `so-/{BEND}{BFAIL}`  ..    ` ``` ` `{BBLUE}``..+o :o/.:{BEND}{BFAIL}+::-  -:./-.` `{BBLUE}++:+oyy//-           `d/::` o:{BEND}
+ {BBLUE}yy/:-+:...` `:-//o+:-/{BEND}{BFAIL}.-`       .     ```----..  .`.`/:/:` `` `/: {BBLUE}.//:++y+-             `syso- .y`{BEND}
+ {BBLUE}+d/oo.-o/:++oy:+.y-{BEND}{BFAIL}-`. .`.` ``````.-. . ``` ``    --`-/. `::./:.`{BBLUE}/+:oo+/-               `h://: h-{BEND}
+ {BBLUE}+yo+y+o.: ` .::` /y+o/{BEND}{BFAIL}-.`   -:-...`.-``.`.`````--smd:+hs. /:-` .{BBLUE}o-.ss+`                `/h/. `.h`{BEND}
+ {BBLUE}`ydho+hy- `` .`.`-{BEND}{BFAIL}+{BEND}{BOK}{CBLINK}sdhhs+/{CEND}{BEND}{BFAIL}` - ` ``   `  -/./{BEND}{BOK}{CBLINK}/+dNNNN{CEND}{BEND}{BFAIL}hy`/s:-:.  {BBLUE}:+.`+o+                  +dyo+.-y:{BEND}
+   {BBLUE}oo+o:sh-./.`--.{BEND}{BFAIL}o+o{BEND}{BOK}{CBLINK}dssmmms/{CEND}{BEND}{BFAIL}o::-`...-:o+s{BEND}{BOK}{CBLINK}mdmNMMMMM{CEND}{BEND}{BFAIL}dhy `s`-..`{BBLUE}:+`.++s                 `ooo:o:.o:{BEND}
+    {BBLUE}:yyh/+ooss/::oo{BEND}{BFAIL}syh{BEND}{BOK}{CBLINK}o:sddmNNdy{CEND}{BEND}{BFAIL}h++ssmN{BEND}{BOK}{CBLINK}MMMMNNMMMMM{CEND}{BEND}{BFAIL}Ny+-./yo/-{BBLUE}.+/`-oy+.                .syyy..`/o{BEND}
+      {BBLUE}`:/ss+oo+oosy{BEND}{BFAIL}ssdy{BEND}{BOK}{CBLINK} .sNMMm::h{CEND}{BEND}{BFAIL}hdo{BEND}{BOK}{CBLINK}mNNNNNMNNNmhs{CEND}{BEND}{BFAIL}+:.. .`.+o{BBLUE}so:.`-+y                 :sohys+.:y{BEND}
+                   {BFAIL}`oo:..-+{BEND}{BOK}{CBLINK}yNNd+{CEND}{BEND}{BFAIL}::+/{BEND}{BOK}{CBLINK}+so+/:::--.`{CEND}{BEND}{BFAIL}-```-:-..:{BBLUE}dd-``.o:o                /ys:.-` -y`{BEND}
+                   {BFAIL}:+-::..:yyNhNyo-.:///-``..`--.`-:----`{BBLUE}dmo/-` s/              .+s+yy-::-/o`{BEND}
+                   {BFAIL}`s-.:/+o:shomho:..`-.`..`.:/yss:.-/+.{BBLUE}+ohy+:.-y`           `:+yd+ys// oo-{BEND}
+                    {BFAIL}`+ossyhm--o:`-``-.o+/h+/hs:ddy:/++++{BBLUE}: s+``.-+s`       `.++/-+:oh+-`+o{BEND}
+                           {BFAIL}sm/-/`d+-s-os./+.//.++o`       {BBLUE}y:.-.``-+/:```://::oy+os.:.h/-{BEND}
+                           {BFAIL}/d++/`:-`.-.```./.o -s:y.      {BBLUE}o-oo//-`::-:os.-:+s/+ss/s//.{BEND}
+                          {BFAIL}.dy/:/:`:...:./:/: :+.++h-      {BBLUE}.syso:...```/-/oyooys./+.{BEND}
+                          {BFAIL}:h:+-/./: --`o/``o-`y+ys:        {BBLUE}-y:yo-.:/`.oyoohdh/+:`{BEND}
+                          {BFAIL}`d++o. +` .+.`y/  s`y+            {BBLUE}-+ys:os//+.+o/`{BEND}
+                           {BFAIL}-yysy`-s  s- so:`hs/                {BBLUE}.::-////-{BEND}
+                            {BFAIL}.+o+++y+++//- /+.{BEND}
+                                                                                    @{CYELLOW}{author}{CEND}
+                                                                                                {CWHITE}{version}{CEND}
