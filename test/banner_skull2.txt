@@ -1,30 +1,31 @@
 
                                                              
                                                             
-                     `-/osyhdddddhyso/-`                    
-                  -ohmmmmmmmmmmmmmmmmmmmho-                 
-                :hmmmmmmmmmmmmmmmmmmmmmmmmmh:               
-              `ymmmmmmmmmmmmmmmmmmmmmmmmmmmmmy`             
-              hNmmmmNNNNmmNNmmNNmmmmNNNNmmNNmmh             
-             +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN/            
-             hNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNy            
-             mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd            
-             mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm            
-            `mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN            
-            .NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN.           
-            oNNNNhyhhhdddhhhhyyhhhhhdddhhhhdNNNN+           
-            mNNh:dN/-+shmNNNNNNNNNNNmhs+-/Nh/hNNm           
-            shds+Nm`     `-+ymNmy+-`     `mN+sdh/           
-            ys  `mNy.     `:ohoyo:`     .yNm` ym            
-            ho  .mNNNhssydNNN+ :NNNdyssdNNNm. my            
-            m/ `dNNNNNNNNNNNd . dNNNNNNNNNNNd.md            
-           :N` sNNNNNNNNNNNNy/m-yNNNNNNNNNNNNsyNo           
-           yh   +NmssysosNNNNNNNNNNNooyysomN+ `dNo          
-          :N:    ` `NNNm:NNNNNNNNNNN+sNNd  `   .NN:         
-         :Nd        hNNy+NNNNNNNNNNNssNNs       yh+`        
-        `sN-        hMMsoMNmdhhhdmNM+hMMs       os+.        
-          `        .MMMNsssydmmmdysysNMMN`      //o.        
-                    .:odMMMMMMMMMMMMMdo:`                   
-                        /NMMMMMMMMMm-                       
-                         .ymNmmmNms`                        
-               {}
+                     {BFAIL}`-/osyhdddddhyso/-`{BEND}
+                  {BFAIL}-ohmmmmmmmmmmmmmmmmmmmho-{BEND}
+                {BFAIL}:hmmmmmmmmmmmmmmmmmmmmmmmmmh:{BEND}
+              {BFAIL}`ymmmmmmmmmmmmmmmmmmmmmmmmmmmmmy`{BEND}
+              {BFAIL}hNmmmmNNNNmmNNmmNNmmmmNNNNmmNNmmh{BEND}
+             {BFAIL}+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN/{BEND}
+             {BFAIL}hNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNy{BEND}
+             {BFAIL}mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd{BEND}
+             {BFAIL}mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm{BEND}
+            {BFAIL}`mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN{BEND}
+            {BFAIL}.NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN.{BEND}
+            {BFAIL}oNNNN{BEND}{BBLUE}hyhhhdddhhhhyyhhhhhdddhhhhd{BEND}{BFAIL}NNNN+{BEND}
+            {BFAIL}mNNh{BEND}{BBLUE}:dN/-+shmNNNNNNNNNNNmhs+-/Nh{BEND}{BFAIL}/hNNm{BEND}
+            {BFAIL}shds{BEND}{BBLUE}+Nm`     `-+ymNmy+-`     `mN{BEND}{BFAIL}+sdh/{BEND}
+            {BFAIL}ys{BEND}  {BBLUE}`mNy.     `:ohoyo:`     .yNm`{BEND} {BFAIL}ym{BEND}
+            {BFAIL}ho{BEND}  {BBLUE}mNNNhssydNNN+ :NNNdyssdNNNm.{BEND} {BFAIL}my{BEND}
+            {BFAIL}m/{BEND} {BBLUE}`dNNNNNNNNNNNd . dNNNNNNNNNNNd.{BEND}{BFAIL}md{BEND}
+           {BFAIL}:N`{BEND} {BBLUE}sNNNNNNNNNNNNy/m-yNNNNNNNNNNNNs{BEND}{BFAIL}yNo{BEND}
+           {BFAIL}yh{BEND}   {BBLUE}N        NNNNNNNNNNN        N{BEND} {BFAIL}`dNo{BEND}
+          {BFAIL}:N:{BEND}    {BOK}{CBLINK}` `NNN{CEND}{BEND}  {BBLUE}NNNNNNNNNNN{BEND}  {BOK}{CBLINK}NNd` `{CEND}{BEND}     {BFAIL}.NN:{BEND}
+         {BFAIL}:Nd{BEND}        {BOK}{CBLINK}hNN{CEND}{BEND}  {BBLUE}NNNNNNNNNNN{BEND}  {BOK}{CBLINK}NNs{CEND}{BEND}       {BFAIL}yh+`{BEND}
+        {BFAIL}`sN-{BEND}        {BOK}{CBLINK}hMM{CEND}{BEND}  {BBLUE}NmdhhhdmNMN{BEND}  {BOK}{CBLINK}MMs{CEND}{BEND}       {BFAIL}os+.{BEND}
+          `        {BOK}{CBLINK}.MMMN             NMMN`{CEND}{BEND}      {BFAIL}//o.{BEND}
+                    {BOK}{CBLINK}.:odMMMMMMMMMMMMMdo:`{CEND}{BEND}
+                        {BOK}{CBLINK}/NMMMMMMMMMm-{CEND}{BEND}
+                         {BOK}{CBLINK}.ymNmmmNms`{CEND}{BEND}
+                                                    @{CYELLOW}{author}{CEND}
+                                                                {CWHITE}{version}{CEND}
