@@ -6,5 +6,5 @@
 {BBLUE}| (      | | \   || |         | |   | (      | (   ) |{BEND}{BFAIL}| |   ) || (      {BEND}{BOK}{CBLINK}| || || || |   | || (\ (   | |   ) |{CEND}{BEND}
 {BBLUE}| (____/\| )  \  || (____/\___) (___| )      | )   ( |{BEND}{BFAIL}| (__/  )| (____/\{BEND}{BOK}{CBLINK}| () () || (___) || ) \ \__| (__/  ){CEND}{BEND}
 {BBLUE}(_______/|/    )_)(_______/\_______/|/       |/     \|{BEND}{BFAIL}(______/ (_______/{BEND}{BOK}{CBLINK}(_______)(_______)|/   \__/(______/ {CEND}{BEND}
-                                                                                    @{CYELLOW}{author}{CEND}                   
+                                                                                    @{CYELLOW}{author}{CEND}
                                                                                                 {CWHITE}{version}{CEND}
