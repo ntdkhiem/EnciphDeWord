@@ -7,9 +7,9 @@ try:
     import platform
     import bcolors as b
     import time
-    from colored import fg,attr
+    from colored import fg, attr
     from docs import helper
-    from core import encrypt,decrypt
+    from core import encrypt, decrypt, cipherAnalysis
     from core.resources.Banner.banner import banner_show
     from utils.color import *
 except ImportError as e:
@@ -37,14 +37,19 @@ def main():
             time.sleep(0.7)
             decrypt.handler()
           elif cmd == 3:
+            print BOKMSG + " Switching to cipher Analysis..." + BEND
+            time.sleep(0.7)
+            cipherAnalysis.handler()
+
+          elif cmd == 4:
             help_ = helper.help_('options','none')
             print help_.format(CGREEN,CEND,CWHITE)
-          elif cmd == 4:
+          elif cmd == 5:
             help_ = helper.help_('author','none')
             print help_.format(CGREEN,CEND,CRED,CLIGHTBLUE,CUNDERLINE,CWHITE)
-          elif cmd == 5:
-            banner_show()
           elif cmd == 6:
+            banner_show()
+          elif cmd == 7:
             print "\n\n" + BOKMSG + " GOOD BYE!!!" + BEND
             break
         except ValueError as e:
