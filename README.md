@@ -12,7 +12,9 @@
 # Installing and requirements
 ### For this project to work you need :
 - [Python 2.x](https://www.python.org/downloads/)
-- Linux (Tested on chromebook) or Windows system(not test for window yet) (not test on Mac yet but it should work if you have python)
+- Linux (Tested on chromebook)
+- Or Window system (not test for window yet) 
+- Or Mac system (under construction with Mac)
 - [Pip](https://pip.pypa.io/en/stable/installing/) installed 
 - The requirements in requirements.txt
 
