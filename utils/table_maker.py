@@ -22,7 +22,7 @@ def Table_maker(msg,key,result,DecOrEn):
     rows = [["Message", msg, help_msg],["Key", key,help_key],["Result",result,help_result]]
     table_maker = table(rows,header,colorfmt='green')
     return table_maker
-elif __platform__.startswith('Windows'):
+  elif __platform__.startswith('Windows'):
     table_maker = PrettyTable()
     table_maker.title = "Information Box"
     table_maker.field_names = ["Types", "Information","Helper"]
