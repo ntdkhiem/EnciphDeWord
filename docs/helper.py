@@ -19,10 +19,11 @@ def help_(DecOrEn,OutOrIn):
       {0}7{1}.{2} Exit{1}
       '''
     help_analysis = '''
-    {0}help{1}            -- Display this help message
-    {0}show info{1}       -- Display information box
-    {0}SET[Cipher Text]{1}-- Set encrypted string
-    {0}back{1}            -- Back to main
+    {0}help{1}                      -- Display this help message
+    {0}show info{1}                 -- Display information box
+    {0}SET message [Cipher Text]{1} -- Set encrypted string
+    {0}execute{1}                   -- Run the analysis
+    {0}back{1}                      -- Back to main
     '''
     help_outside_encrypt = '''
     {0}help{1}            -- Display this help message
