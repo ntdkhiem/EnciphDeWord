@@ -47,7 +47,7 @@ def Table_maker_multi(msg,keys,result,DecOrEn,keys_ID,types):
     help_msg = helper.help_('helper','msg').format(encOrdec[0])
     help_key = helper.help_('helper','key').format(encOrdec[1])
     help_result = helper.help_('helper','result').format(encOrdec[1])
-    if __platform__.startswith('Linux'):
+    if __platform__.startswith('Linux') or __platform__.startswith('Darwin'):
         header = ['Types','Information','Helper']
         rows = [["Message", msg, help_msg]]
         for i in range(0,len(keys_ID)):
@@ -55,8 +55,20 @@ def Table_maker_multi(msg,keys,result,DecOrEn,keys_ID,types):
         rows += [["Result",result,help_result]]
         table_maker = table(rows,header,colorfmt='green')
         return table_maker
-
-
+    elif __platform__.startswith('Windows'):
+        table_maker = PrettyTable()
+        table_maker.title = "Information Box"
+        table_maker.field_names = ["Types", "Information","Helper"]        
+        table_maker.add_row(["Message", msg, help_msg])
+        for i in range(0,len(keys_ID)):
+            table_maker.add_row([keys_ID[i],keys[i],help_key])
+        table_maker.add_row(["Result",result,help_result])
+        table_maker.align = "l"
+        table_maker.align["Information"] = 'c'
+        table_maker.align["Types"] = 'c'
+        table_maker.max_width = 120
+        table_maker.hrules = 1
+        return table_maker
 
 
 
