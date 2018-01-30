@@ -29,17 +29,17 @@ pip install -r requirements.txt
 python EnciphDeWord.py
 ```
 ### TODO:
-- [x] Encipher and Decipher work (Hopfully)
+- [x] Encipher and Decipher
 - [X] Include Additive Cipher (26 possibilities :+1:)
 - [X] Include Multiplicative Cipher (11 possibilities :+1:)
 - [X] Include Affine Cipher (combined of Additive Cipher and Multiplicative Cipher)  (392 possibilities :+1:)
-- [X] Include Hill Digraph Cipher (456,976 possibilities)
-- [X] Include Hill Trigraph Ciper (5,429,503,678,976 possibilities if that is right)
-- [X] Include Vigenère Square (limitless possibilities)
+- [X] Include Hill Digraph Cipher (456,976 possibilities :+1:)
+- [X] Include Hill Trigraph Cipher (5,429,503,678,976 possibilities :+1:)
+- [X] Include Vigenère Square (limitless possibilities :+1:)
 - [ ] <del>Include Playfair Cipher</del>
 - [ ] <del>Include Permutation Cipher</del>
 - [ ] Include exercises for each Cipher
-- [X] Include Analysis for encryted message
+- [X] Include Analysis for encryted message :+1:
 
 #### I'm still a novice
 > so pull requests are welcome
