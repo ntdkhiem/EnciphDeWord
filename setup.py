@@ -8,7 +8,7 @@ setup(
     version = "1.0",
     description = "Basic Encryption and Decryption based on www.mastermathmentor.com/mmm/Crypt.ashx",
     
-    author = "Khiem Nguyen",
+    author = "TopKeingt",
     author_email = "ppkhiemnguyen@gmail.com",
     url = "www.github.com/TopKeingt/EnciphDeWord",
     
