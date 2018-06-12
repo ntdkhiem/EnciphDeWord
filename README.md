@@ -42,7 +42,7 @@ python EnciphDeWord.py
 - [X] Include Analysis for encryted message :+1:
 
 ### WARNING:
-Letters and punctuation work except for digits (we will fix this) so please encrypt your message without adding numbers
+Letters and punctuation work except for digits (I will fix this) so please encrypt your message without adding numbers
 
 #### I'm still a novice
 > so pull requests are welcome
