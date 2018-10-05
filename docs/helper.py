@@ -1,6 +1,6 @@
 def help_(DecOrEn,OutOrIn):
     about_me = '''
-        Hi!!, My name is {0}Khiem Nguyen{1} aka {2}TopKeingt{1}.
+        Hi!!, My name is {0}Kevin Nguyen{1} aka {2}TopKeingt{1}.
 
         I'm a student in Malden High School and love to code.I trying to learn as many programming
         languages as possible.
