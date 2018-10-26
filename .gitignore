@@ -4,3 +4,4 @@ build/
 dist/
 *.py~
 .*.un~
+*.swp

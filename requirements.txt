@@ -2,4 +2,3 @@ prettytable
 colortable
 bcolors
 colored
-os
