@@ -14,6 +14,7 @@
 ```
 git clone https://github.com/TopKeingt/EnciphDeWord.git
 cd EnciphDeWord
+pip install -r requirements.txt
 python EnciphDeWord.py
 ```
 ### TODO:
