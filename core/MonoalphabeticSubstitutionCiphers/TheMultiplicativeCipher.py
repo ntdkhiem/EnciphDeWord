@@ -3,13 +3,16 @@ from core.Config import alphabet, C_list
 class Multiplicative_Cipher:
     
     """
-        Name: The Multiplicative Cipher
-        Description: An encryption and decryption that use key (1-11) to multiply each number that represent letter in alphabet.
-        Possibility: 11
-        Author: @Khiem Nguyen
+        Name: {cyan}The Multiplicative Cipher{reset}
+        Description: {cyan}An encryption and decryption that use key (1-11) to multiply each number that represent letter in alphabet.{reset}
+        Possibility: {cyan}11{reset}
+        Author: {yellow}@Khiem Nguyen{reset}
 
+        WARNING:
+            PLEASE ONLY USE KEY FROM 0 TO 26
+        
         [+] Please only use digits as key
-        HINT:
+        {cyan}HINT{reset}:
             Your key: 999
     """
 
@@ -18,6 +21,8 @@ class Multiplicative_Cipher:
         if key == None:
             try:
                 self.key = int(input('Your key: '))
+                if self.key > 26:
+                    raise ValueError()
             except ValueError as e:
                 raise ValueError() 
 

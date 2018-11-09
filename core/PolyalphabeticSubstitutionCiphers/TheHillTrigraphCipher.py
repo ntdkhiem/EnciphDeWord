@@ -4,13 +4,13 @@ from core.Config import alphabet, C_list
 class HillTrigraph_Cipher:
 
     """
-        Name: The Hill-Trigraph Cipher
-        Description: An encryption and decryption technique that use 3x3 integer matrices as keys
-        Possibility: 5,429,503,678,976
-        Author: @Khiem Nguyen
+        Name: {cyan}The Hill-Trigraph Cipher{reset}
+        Description: {cyan}An encryption and decryption technique that use 3x3 integer matrices as keys.{reset}
+        Possibility: {cyan}5,429,503,678,976{reset}
+        Author: {yellow}@Khiem Nguyen{reset}
 
         [+] There are 9 keys that you need to input!!
-        HINT:
+        {cyan}HINT{reset}:
             (a = ODD ,b = ODD,c = EVEN)    (a = EVEN,b = ODD,c = ODD )
             (d = EVEN,e = ODD,f = EVEN) or (d = EVEN,e = ODD,f = ODD )
             (g = EVEN,h = ODD,i = ODD )    (g = ODD ,h = ODD,i = ODD )

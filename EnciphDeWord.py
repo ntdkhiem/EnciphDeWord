@@ -1,5 +1,7 @@
 from os import system
+from colorama import init
 import platform
+from core.color import *
 from core.banner import banner
 from core import Cipher_System
 
@@ -8,9 +10,10 @@ __platform__ = platform.uname()[0]  # System name
 __author__ = '@Khiem Nguyen'
 ciphers = ['Additive_Cipher', 'Multiplicative_Cipher', 'Affine_Cipher', 'HillDigraph_Cipher', 'HillTrigraph_Cipher','Vigenere_Square']
 clear = ''
+init() # initalize ANSI color codes for window
 
 if int(platform.python_version_tuple()[0]) < 3:
-    print('You are using python version {python_version}. Please upgrade to version 3 and run this project again'.format(platform.python_version))
+    f'''{RED} + 'You are using python version {BLUE}{platform.python_version()}{RESET}. Please upgrade to version 3 and run this project again'''
     exit(1)
 
 def main():
@@ -18,16 +21,16 @@ def main():
     while 1:
         try:
             banner()
-            print ('''
-                1. Additve Cipher
-                2. Multiplicative Cipher
-                3. Affine Cipher
-                4. Hill-Digraph Cipher
-                5. Hill-Trigraph Cipher
-                6. Vigenere Square
-                7. Exit
+            print(f'''
+                {WHITE}1. {CYAN}Additve Cipher{RESET}
+                {WHITE}2. {CYAN}Multiplicative Cipher{RESET}
+                {WHITE}3. {CYAN}Affine Cipher{RESET}
+                {WHITE}4. {CYAN}Hill-Digraph Cipher{RESET}
+                {WHITE}5. {CYAN}Hill-Trigraph Cipher{RESET}
+                {WHITE}6. {CYAN}Vigenere Square{RESET}
+                {WHITE}7. {CYAN}Exit{RESET}
             ''')
-            cmd = int(input("Enter (digit only): "))
+            cmd = int(input(f"{RED}Enter {WHITE}(digit only){RESET} >> "))
             if cmd < 7 and cmd > 0:
                 second_step(ciphers[cmd - 1])
             elif cmd == 7:
@@ -35,24 +38,23 @@ def main():
             else:
                 raise ValueError()
         except ValueError as e:
-            print("Please try again!!")
+            print(f"{RED}[*]{RESET} Please try again!!")
         except KeyboardInterrupt as e:
-            print("\n\nGOODBYE\n\n")
+            print(f"\n\nGOODBYE\n\n")
             exit(1)
 
 def second_step(cipher):
-    
-    print ("{0}{1}{0}".format("=" * 10, cipher))
+    print (f"{'=' * 10} {WHITE}{cipher}{RESET} {'=' * 10}")
     cipher_Class = Cipher_System(cipher)
     _continue = True
     while _continue:
         print (cipher_Class.get_cipher_info())
-        method = input('Encrypt or Decrypt: ')
+        method = input(f'{CYAN}Encrypt{RESET} or {YELLOW}Decrypt{RESET}: ')
         msg = input("Your message: ")
         try: 
             print ('Result >> ', cipher_Class(msg, None, method=method.lower()))
         except ValueError as e:
-            print ('[*] Please follow the instruction!!')
+            print(f'{RED}[*]{RESET} Please follow the instruction!!')
             pass
         _continue = again()
 

@@ -6,13 +6,13 @@ C_list_values = [27,9,21,15,3,19,7,23,11,5,17,25]
 class Affine_Cipher:
 
     """
-        Name: The Affine Cipher
-        Description: An encryption and decryption that use a combine additive key and multiplicative key to multiply and adding each number that represent letter in alphabet.
-        Possibility: 392
-        Author: @Khiem Nguyen
+        Name: {cyan}The Affine Cipher{reset}
+        Description: {cyan}An encryption and decryption that use a combine additive key and multiplicative key to multiply and adding each number that represent letter in alphabet.{reset}
+        Possibility: {cyan}392{reset}
+        Author: {yellow}@Khiem Nguyen{reset}
 
         [+] Please only use digits as key
-        HINT:
+        {cyan}HINT{reset}:
             Your addition key: 5
             Your multiplication key: 20
     """
@@ -22,6 +22,8 @@ class Affine_Cipher:
         if keys == None:
             try:
                 self.keys = [int(input('Your addition key: ')), int(input('Your multiplication key: '))]
+                if self.keys[0] > 26 or self.keys[1] > 26:
+                    raise ValueError()
             except ValueError as e:
                 raise ValueError() 
 

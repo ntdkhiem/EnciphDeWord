@@ -3,13 +3,13 @@ from core.Config import alphabet, C_list
 class HillDigraph_Cipher:
 
     """
-        Name: The Hill-Digraph Cipher
-        Description: An encryption and decryption technique that use 2x2 integer matrices as keys
-        Possibility: 456,976
-        Author: @Khiem Nguyen
+        Name: {cyan}The Hill-Digraph Cipher{reset}
+        Description: {cyan}An encryption and decryption technique that use 2x2 integer matrices as keys.{reset}
+        Possibility: {cyan}456,976{reset}
+        Author: {yellow}@Khiem Nguyen{reset}
 
         [+] There are 4 keys that you need to input!!
-        HINT:
+        {cyan}HINT{reset}:
             (a = EVEN, b = ODD, c = ODD, d = EVEN)
     """
 

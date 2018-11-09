@@ -1,0 +1,6 @@
+{cyan}   __           _       _     {reset}{red}   ___    {reset}{green} __    __              _ {reset}
+{cyan}  /__\ __   ___(_)_ __ | |__  {reset}{red}  /   \___{reset}{green}/ / /\ \ \___  _ __ __| |{reset}
+{cyan} /_\|  _ \ / __| |  _ \|  _ \ {reset}{red} / /\ / _ {reset}{green}\ \/  \/ / _ \|  __/ _  |{reset}
+{cyan}//__| | | | (__| | |_) | | | |{reset}{red}/ /_//  __/{reset}{green}\  /\  / (_) | | | (_| |{reset}
+{cyan}\__/|_| |_|\___|_| .__/|_| |_/{reset}{red}___,  \___|{reset}{green} \/  \/ \___/|_|  \__,_|{reset}
+                 {cyan}|_|{reset}                                        By: @TopKeingt  

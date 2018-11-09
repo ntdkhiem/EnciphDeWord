@@ -3,14 +3,17 @@ from core.Config import alphabet
 class Additive_Cipher:
 
     """
-        Name: The Additive Cipher
-        Description: An encryption and decryption technique that use key provide (1-26) and adding it to each number that represent letter in alphabet.
-        Possibility: 26
-        Author: @Khiem Nguyen
+        Name: {cyan}The Additive Cipher{reset}
+        Description: {cyan}An encryption and decryption technique that use key provide (1-26) and adding it to each number that represent letter in alphabet.{reset}
+        Possibility: {cyan}26{reset}
+        Author: {yellow}@Khiem Nguyen{reset}
+
+        WARNING:
+            PLEASE ONLY USE KEY FROM 0 TO 26
 
         [+] Please only use digits as key
-        HINT:
-            Your key: 999
+        {cyan}HINT{reset}:
+            Your key: 0-26
     """
 
     def __init__(self, msg, key):
@@ -18,6 +21,8 @@ class Additive_Cipher:
         if key == None:
             try:
                 self.key = int(input('Your key: '))
+                if self.key > 26:
+                    raise ValueError()
             except ValueError as e:
                 raise ValueError() 
 

@@ -1,0 +1,15 @@
+{cyan}  sSSs   .S_sSSs      sSSs   .S   .S_sSSs     .S    S.   {reset}{red} .S_sSSs      sSSs  {reset}{green} .S     S.     sSSs_sSSs     .S_sSSs     .S_sSSs  {reset}  
+{cyan} d%%SP  .SS~YS%%b    d%%SP  .SS  .SS~YS%%b   .SS    SS.  {reset}{red}.SS~YS%%b    d%%SP  {reset}{green}.SS     SS.   d%%SP~YS%%b   .SS~YS%%b   .SS~YS%%b {reset}  
+{cyan}d%S     S%S    S%b  d%S     S%S  S%S   `S%b  S%S    S%S  {reset}{red}S%S    S%b  d%S     {reset}{green}S%S     S%S  d%S       S%b  S%S    S%b  S%S    S%b{reset}  
+{cyan}S%S     S%S    S%S  S%S     S%S  S%S    S%S  S%S    S%S  {reset}{red}S%S    S%S  S%S     {reset}{green}S%S     S%S  S%S       S%S  S%S    S%S  S%S    S%S{reset}  
+{cyan}S&S     S%S    S&S  S&S     S&S  S%S    d*S  S%S SSSS%S  {reset}{red}S%S    S&S  S&S     {reset}{green}S%S     S%S  S&S       S&S  S%S    d*S  S%S    S&S{reset}  
+{cyan}S&S_Ss  S&S    S&S  S&S     S&S  S&S   .S*S  S&S  SSS&S  {reset}{red}S&S    S&S  S&S_Ss  {reset}{green}S&S     S&S  S&S       S&S  S&S   .S*S  S&S    S&S{reset}  
+{cyan}S&S~SP  S&S    S&S  S&S     S&S  S&S_sdSSS   S&S    S&S  {reset}{red}S&S    S&S  S&S~SP  {reset}{green}S&S     S&S  S&S       S&S  S&S_sdSSS   S&S    S&S{reset}  
+{cyan}S&S     S&S    S&S  S&S     S&S  S&S~YSSY    S&S    S&S  {reset}{red}S&S    S&S  S&S     {reset}{green}S&S     S&S  S&S       S&S  S&S~YSY%b   S&S    S&S{reset}  
+{cyan}S*b     S*S    S*S  S*b     S*S  S*S         S*S    S*S  {reset}{red}S*S    d*S  S*b     {reset}{green}S*S     S*S  S*b       d*S  S*S   `S%b  S*S    d*S{reset}  
+{cyan}S*S.    S*S    S*S  S*S.    S*S  S*S         S*S    S*S  {reset}{red}S*S   .S*S  S*S.    {reset}{green}S*S  .  S*S  S*S.     .S*S  S*S    S%S  S*S   .S*S{reset}  
+{cyan} SSSbs  S*S    S*S   SSSbs  S*S  S*S         S*S    S*S  {reset}{red}S*S_sdSSS    SSSbs  {reset}{green}S*S_sSs_S*S   SSSbs_sdSSS   S*S    S&S  S*S_sdSSS {reset}  
+{cyan}  YSSP  S*S    SSS    YSSP  S*S  S*S         SSS    S*S  {reset}{red}SSS~YSSY      YSSP  {reset}{green}SSS~SSS~S*S    YSSP~YSSY    S*S    SSS  SSS~YSSY  {reset}  
+{cyan}        SP                  SP   SP                 SP   {reset}{red}                    {reset}{green}                            SP                    {reset}  
+{cyan}        Y                   Y    Y                  Y    {reset}{red}                    {reset}{green}                            Y                     {reset} 
+                                                                                        By: @TopKeingt

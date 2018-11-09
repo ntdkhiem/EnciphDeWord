@@ -3,13 +3,13 @@ from core.Config import alphabet
 class Vigenere_Square:
 
     """
-        Name: The Vigenere Square
-        Description: An encryption and decryption technique that use word or string provided as key and adding it to each number that represent letter in alphabet.
-        Possibility: limitless
-        Author: @Khiem Nguyen
+        Name: {cyan}The Vigenere Square{reset}
+        Description: {cyan}An encryption and decryption technique that use word or string provided as key and adding it to each number that represent letter in alphabet.{reset}
+        Possibility: {cyan}limitless{reset}
+        Author: {yellow}@Khiem Nguyen{reset}
 
         [+] You only need to input characters in the as the key
-        HINT:
+        {cyan}HINT{reset}:
             Your keyword: dog
     """
 
