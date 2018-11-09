@@ -1,0 +1,3 @@
+from core.PolyalphabeticSubstitutionCiphers.TheHillDigraphCipher import HillDigraph_Cipher
+from core.PolyalphabeticSubstitutionCiphers.TheHillTrigraphCipher import HillTrigraph_Cipher
+from core.PolyalphabeticSubstitutionCiphers.TheVigenereSquare import Vigenere_Square

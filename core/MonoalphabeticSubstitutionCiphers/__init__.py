@@ -1,0 +1,3 @@
+from core.MonoalphabeticSubstitutionCiphers.TheAdditiveCipher import Additive_Cipher
+from core.MonoalphabeticSubstitutionCiphers.TheMultiplicativeCipher import Multiplicative_Cipher
+from core.MonoalphabeticSubstitutionCiphers.TheAffineCipher import Affine_Cipher
