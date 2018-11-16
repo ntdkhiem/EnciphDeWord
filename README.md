@@ -6,15 +6,12 @@
 # Requirements
 ### For this project to work you need :
 - [Python 3.x](https://www.python.org/downloads/)
-- Linux
-- Or Window 
-- Or Mac OS
 
 ### Installation
 ```
 git clone https://github.com/TopKeingt/EnciphDeWord.git
 cd EnciphDeWord
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python EnciphDeWord.py
 ```
 ### TODO:
