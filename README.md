@@ -1,5 +1,7 @@
 # EnciphDeWord [![Python 3.6.5](https://img.shields.io/badge/Python-3.6.5-yellow.svg)](http://www.python.org/download/)
-###### EnciphDeword is a basic python project that I created based on [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz
+*EnciphDeword is a basic python project that I created based on [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz*
+
+###### This project intended for beginners since all python files were created with easy to read layout. 
 
 <!-- [![asciicast](https://asciinema.org/a/158352.png)](https://asciinema.org/a/158352?autoplay=1) -->
 
