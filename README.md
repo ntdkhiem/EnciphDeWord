@@ -3,7 +3,8 @@
 
 ###### This project intended for beginners since all python files were created with easy to read layout. 
 
-<!-- [![asciicast](https://asciinema.org/a/158352.png)](https://asciinema.org/a/158352?autoplay=1) -->
+ [![asciicast](https://asciinema.org/a/158352.png)](https://asciinema.org/a/158352?autoplay=1)
+ this video is a demo for EnciphDeWord v1
 
 # Requirements
 ### For this project to work you need :
