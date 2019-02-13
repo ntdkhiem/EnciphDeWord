@@ -1,7 +1,7 @@
 from os import system
 from colorama import init
 import platform
-from core.color import *
+from core.color import RED, YELLOW, BLUE, CYAN, WHITE, RESET
 from core.banner import banner
 from core import Cipher_System
 
@@ -55,7 +55,6 @@ def second_step(cipher):
             print ('Result >> ', cipher_Class(msg, None, method=method.lower()))
         except ValueError as e:
             print(f'{RED}[*]{RESET} Please follow the instruction!!')
-            pass
         _continue = again()
 
 def again():

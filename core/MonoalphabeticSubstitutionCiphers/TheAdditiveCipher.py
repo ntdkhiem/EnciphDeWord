@@ -18,7 +18,7 @@ class Additive_Cipher:
 
     def __init__(self, msg, key):
         self.msg = msg
-        if key == None:
+        if key is None:
             try:
                 self.key = int(input('Your key: '))
                 if self.key > 26:
@@ -40,7 +40,7 @@ class Additive_Cipher:
                     encrypt_num_list.append(encrypted_number)
 
         for number in encrypt_num_list:
-            if type(number) != int:
+            if not isinstance(number, int):
                 result.append(number)
             else:
                 for letter, index in alphabet.items():
@@ -65,7 +65,7 @@ class Additive_Cipher:
                     decrypt_num_list.append(decrypt_number)
                     
         for number in decrypt_num_list:
-            if type(number) != int:
+            if not isinstance(number, int):
                 result.append(number)
             else:
                 for letter, index in alphabet.items():

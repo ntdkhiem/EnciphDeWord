@@ -19,7 +19,7 @@ class Affine_Cipher:
 
     def __init__(self, msg, keys):
         self.msg = msg
-        if keys == None:
+        if keys is None:
             try:
                 self.keys = [int(input('Your addition key: ')), int(input('Your multiplication key: '))]
                 if self.keys[0] > 26 or self.keys[1] > 26:
@@ -28,7 +28,7 @@ class Affine_Cipher:
                 raise ValueError() 
 
     def encrypt(self):
-        if not self.keys[0] in C_list_keys:
+        if self.keys[0] not in C_list_keys:
             return # None if the first key isn't in the key list.
         else:
             encrypt_num_list = []
@@ -40,7 +40,7 @@ class Affine_Cipher:
                 else:
                     encrypt_num_list.append((self.keys[0] * alphabet.get(letter) + self.keys[1]) % 26)
             for number in encrypt_num_list:
-                if type(number) != int:
+                if not isinstance(number, int):
                     result.append(number)
                 elif number == 0:
                     result.append('Z')
@@ -74,7 +74,7 @@ class Affine_Cipher:
                     decrypt_num_list.append(decrypted_number)
 
         for number in decrypt_num_list:
-            if type(number) != int:
+            if not isinstance(number, int):
                 result.append(number)
             else:
                 for letter, index in alphabet.items():

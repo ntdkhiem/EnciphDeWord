@@ -15,7 +15,7 @@ class Vigenere_Square:
 
     def __init__(self,msg, key):
         self.msg = msg
-        if key == None:
+        if key is None:
             try:
                 self.keyword = input('Your keyword: ')
             except ValueError as e:

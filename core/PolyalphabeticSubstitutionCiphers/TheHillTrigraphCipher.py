@@ -18,7 +18,7 @@ class HillTrigraph_Cipher:
 
     def __init__(self, msg, keys):
         self.msg = msg
-        if keys == None:
+        if keys is None:
             try:
                 self.keys = [int(input('Your key ({}): '.format(name))) for name in ['A','B','C','D','E','F','G','H','I']]
             except ValueError as e:
@@ -32,7 +32,7 @@ class HillTrigraph_Cipher:
         new_num_list = []
         result = []
 
-        if not determinant in C_list:
+        if determinant not in C_list:
             return []
         
         if len(enc_list[-1]) == 1:
