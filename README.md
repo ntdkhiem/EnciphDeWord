@@ -32,6 +32,3 @@ python EnciphDeWord.py
 
 ### WARNING:
 Letters and punctuation work except for digits (I will fix this) so please encrypt your message without adding numbers
-
-#### I'm still a novice
-> so pull requests are welcome
