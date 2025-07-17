@@ -1,14 +1,15 @@
 # EnciphDeWord [![Python 3.6.5](https://img.shields.io/badge/Python-3.6.5-yellow.svg)](http://www.python.org/download/)
-*EnciphDeword is a basic python project that I created based on [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz*
+*Inspired by [Cipher System using SpreadSheet](http://www.mastermathmentor.com/mmm/Crypt.ashx) by @Stu Schawartz*
 
-###### This project intended for beginners since all python files were created with easy to read layout. 
+EnciphDeWord is a Python-based command‑line application designed to help beginners explore and understand classic cryptography.
+It provides an interactive environment where users can encrypt and decrypt text using a variety of algorithms—from simple substitution methods to more advanced matrix‑based ciphers. Each algorithm is implemented from scratch in pure Python, allowing users to see exactly how plaintext is transformed into ciphertext and back.
 
  [![asciicast](https://asciinema.org/a/158352.png)](https://asciinema.org/a/158352?autoplay=1)
  this video is a demo for EnciphDeWord v1
 
 # Requirements
 ### For this project to work you need :
-- [Python 3.x](https://www.python.org/downloads/)
+- [>= Python 3.6](https://www.python.org/downloads/)
 
 ### Installation
 ```
